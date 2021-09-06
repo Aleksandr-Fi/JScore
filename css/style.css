@@ -1,0 +1,335 @@
+@import url(../fonts/TTLakes/stylesheet.css);
+
+.wrapper {
+    width: 320px;
+    height: 597px;
+    margin: 0 auto;
+    font-family: 'TT Lakes';
+    color: #1B1C21;
+}
+
+.header {
+    border-bottom: 1px solid #D9FFF5;
+}
+
+.head-menu {
+    height: 88px;
+    width: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.head-menu__button {
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.head-menu__burger-logo {
+    width: 188px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    position: relative;
+}
+
+.head-menu__burger {    
+    background-image: url('/img/icons/icon-burger.png');
+}
+
+.head-menu__logo {
+    background-color: white;
+    border: none;
+    width: 97px;
+    height: 51px;
+    background-image: url('../img/icons/logo.png');
+}
+
+.add__icons {
+    display: none;
+}
+
+.head-menu__call {
+    background-image: url('/img/icons/icon-call.png');
+}
+
+.head-menu__chat {
+    background-image: url('/img/icons/icon-chat.png');
+}
+
+.head-menu__profile {
+    background-image: url('/img/icons/Group-profile.png');
+}
+
+.head-menu__icons {
+    width: 134px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.head-menu__repair {
+    background-image: url('/img/icons/Group-repair.png');
+}
+
+.head-menu__checkstatus {
+    background-image: url('/img/icons/icon-checkstatus.png');
+}
+
+.head-menu__icons::before {
+    content: "";
+    position: relative;
+    right: 9px;
+    width: 0px;
+    height: 30px;
+    border: #EAEAEA solid 1px;
+    border-radius: 1px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav__title {
+    margin-left: 12px;
+}
+
+.nav__text {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+}
+
+.nav__text::before {
+    content: "";
+    position: relative;
+    right: 13px;
+    width: 0px;
+    height: 40px;
+    border-right: #41F6D7 solid 4px;
+    border-radius: 0 4px 4px 0;
+}
+
+.block__text2--visibility {
+    display: none;
+}
+
+.slide-menu {
+    margin-left: 20px;
+    overflow-x: scroll; 
+    width: auto; 
+    height: 40px; 
+    padding: 0px;
+    white-space: nowrap; 
+    position: relative;
+}
+
+.slide-menu::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    height: 40px;
+    width: 24px;
+    background: url("../img/images/fade.png") no-repeat;
+    background-size: 24px 40px;
+}
+
+.slide-menu__button {
+    height: 40px;
+    margin: 0px;
+    padding: 0px 10px;
+    margin-right: 16px;
+    background-color: white;
+    border: none;
+}
+
+.slide-menu__button:active {
+    border: #90f8e7 solid 2px;
+    border-radius: 5px;
+}
+
+.slide-menu__text {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+}
+
+.block {
+    
+    margin-top: 20px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block__text {
+    margin: 0 16px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+.read-more {
+    margin: 16px;
+    padding: 0;
+    height: 24px;
+    width: 134px;
+    border: none;
+    background-color: white;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.read-more__icon {
+    margin-top: 2px;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 0px;
+}
+
+.read-more__arrow {
+    height: 10px;
+    width: 7.5px;
+}
+
+.read-more__text {
+    margin: 0;
+    height: 24px;
+    width: 102px;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+.block1__image {
+    width: 320px;
+    height: 176px;
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        width: 768px;
+        height: 504px;
+        margin: 0 auto;
+        font-family: 'TT Lakes';
+    }
+
+    .head-menu__burger-logo {
+        position: relative;
+    }
+
+    .head-menu__burger-logo::before {
+        content: "";
+        position: relative;
+        left: 71px;
+        width: 0px;
+        height: 30px;
+        border: #EAEAEA solid 1px;
+        border-radius: 1px;
+    }
+
+    .head-menu__logo{
+        position: relative;
+        left: 25px;
+    }
+
+    .add__icons {
+        width: 180px;
+        height: 40px;
+        position: relative;
+        left: 125px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .head-menu__icons {
+        position: relative;
+        right: 10px;
+    }
+
+    .container {
+        background-color: #F8F8F8;
+    }
+
+    .nav {
+        margin-left: 10px;
+        height: 152px;
+    }
+
+    .nav__text::before {
+        right: 21px;
+    }
+
+    .slide-menu {
+        margin-left: 32px 24px 0 32px;
+    }
+
+    .slide-menu__button {
+        padding: 0 8px;
+        background-color: #F8F8F8;
+    }
+
+    .block {        
+        margin-left: 24px;
+        width: 720px;
+        height: 208px;
+        flex-wrap: wrap;
+    }
+
+    .block__text {
+        margin: 0;
+        width: 312px;
+        height: 160px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+
+    .read-more {
+        margin: 10px;
+        margin-left: 2px;
+        background-color: #F8F8F8;
+    }
+
+    .block__text2--visibility {
+        display: contents;
+    }
+
+    .block1__image {
+        margin-left: 48px;
+        width: 360px;
+        height: 208px;
+        border-radius: 6px;
+    }
+
+    }
+
+    @media (min-width: 1120px) {
+
+        .wrapper {
+            width: 1120px;
+            height: 535px;
+        }
+
+        .header {
+            display: none;
+        }
+
+    }

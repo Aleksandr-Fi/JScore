@@ -21,7 +21,6 @@
 }
 
 .head-menu__button {
-    background-color: white;
     border: none;
     height: 40px;
     width: 40px;
@@ -118,7 +117,11 @@
     border-radius: 0 4px 4px 0;
 }
 
-.block__text2--visibility {
+.add-btn {
+    display: none;
+}
+
+.block__text--visibility {
     display: none;
 }
 
@@ -132,7 +135,7 @@
     position: relative;
 }
 
-.slide-menu::before {
+.slide-menu::after {
     content: "";
     position: absolute;
     right: 0px;
@@ -145,8 +148,7 @@
 .slide-menu__button {
     height: 40px;
     margin: 0px;
-    padding: 0px 10px;
-    margin-right: 16px;
+    padding: 0 15px;
     background-color: white;
     border: none;
 }
@@ -279,11 +281,10 @@
     }
 
     .slide-menu {
-        margin-left: 32px 24px 0 32px;
+        margin: 0 0 0 22px;
     }
 
     .slide-menu__button {
-        padding: 0 8px;
         background-color: #F8F8F8;
     }
 
@@ -302,14 +303,14 @@
         letter-spacing: 0.2px;
     }
 
+    .block__text2 {
+        display: contents;
+    }
+
     .read-more {
         margin: 10px;
         margin-left: 2px;
         background-color: #F8F8F8;
-    }
-
-    .block__text2--visibility {
-        display: contents;
     }
 
     .block1__image {
@@ -330,6 +331,91 @@
 
         .header {
             display: none;
+        }
+
+        .nav {
+            padding-top: 30px;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .add-btn {
+            width: 235px;
+            margin-right: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            letter-spacing: -0.2px;
+        }
+
+        .head-menu__icons::before {
+            display: none;
+        }
+
+        .add-btn__repair::before {
+            content: "Оставить  отзыв";
+            display: block;
+            position: relative;
+            right: 150px;
+            height: 24px;
+            width: 140px;
+            padding: 8px;
+        }
+
+        .add-btn__checkstatus::before {
+            content: "Статус ремонта";
+            display: block;
+            position: relative;
+            right: 150px;
+            height: 24px;
+            width: 140px;
+            padding: 8px;
+        }
+
+        .slide-menu {
+            overflow: visible;
+            width: 1063px; 
+            height: 82px;
+            margin-top: 10px;
+            padding: 0px;
+            white-space:normal;
+        }
+
+        .slide-menu__button-visibility {
+            display: none;
+        }
+
+        .slide-menu__button {
+            margin-bottom: 5px;
+        }
+
+        .block {
+            width: 1057px; 
+            height: 307px;
+        }
+
+        .block__text {
+            width: 490px; 
+            height: 160px;
+            margin-top: 5px;
+        }
+
+        .block__text3 {
+            display: contents;
+        }
+
+        .read-more {
+            margin-bottom: 100px;
+            background-color: #F8F8F8;
+        }
+
+        .block1__image {
+            width: 532px; 
+            height: 307px;
         }
 
     }

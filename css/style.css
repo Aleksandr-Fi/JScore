@@ -39,7 +39,7 @@
 }
 
 .head-menu__burger {    
-    background-image: url('/img/icons/icon-burger.svg');
+    background-image: url('../img/icons/icon-burger.svg');
 }
 
 .head-menu__logo {
@@ -55,15 +55,15 @@
 }
 
 .head-menu__call {
-    background-image: url('/img/icons/icon-call.svg');
+    background-image: url('../img/icons/icon-call.svg');
 }
 
 .head-menu__chat {
-    background-image: url('/img/icons/icon-chat.svg');
+    background-image: url('../img/icons/icon-chat.svg');
 }
 
 .head-menu__profile {
-    background-image: url('/img/icons/Group-profile.svg');
+    background-image: url('../img/icons/Group-profile.svg');
 }
 
 .head-menu__icons {
@@ -74,11 +74,11 @@
 }
 
 .head-menu__repair {
-    background-image: url('/img/icons/Group-repair.svg');
+    background-image: url('../img/icons/Group-repair.svg');
 }
 
 .head-menu__checkstatus {
-    background-image: url('/img/icons/icon-checkstatus.svg');
+    background-image: url('../img/icons/icon-checkstatus.svg');
 }
 
 .head-menu__icons::before {

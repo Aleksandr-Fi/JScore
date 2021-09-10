@@ -1,9 +1,7 @@
 @import url(../fonts/TTLakes/stylesheet.css);
 
 .wrapper {
-    width: 320px;
     height: 597px;
-    margin: 0 auto;
     font-family: 'TT Lakes';
     color: #1B1C21;
 }
@@ -14,7 +12,6 @@
 
 .head-menu {
     height: 88px;
-    width: auto;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -91,23 +88,20 @@
     border-radius: 1px;
 }
 
-.nav {
+.upper-block {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.nav__title {
+.upper-block__title {
     margin-left: 12px;
-}
-
-.nav__text {
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6px;
 }
 
-.nav__text::before {
+.upper-block__title::before {
     content: "";
     position: relative;
     right: 13px;
@@ -180,7 +174,6 @@
 }
 
 .block {
-    
     margin-top: 20px;
     height: 234px;
     display: flex;
@@ -238,13 +231,6 @@
 
 @media (min-width: 768px) {
 
-    .wrapper {
-        width: 768px;
-        height: 504px;
-        margin: 0 auto;
-        font-family: 'TT Lakes';
-    }
-
     .head-menu__burger-logo {
         position: relative;
     }
@@ -278,16 +264,16 @@
         right: 10px;
     }
 
-    .container {
+    .main {
         background-color: #F8F8F8;
     }
 
-    .nav {
+    .upper-block {
         margin-left: 10px;
-        height: 152px;
+        /* height: 152px; */
     }
 
-    .nav__text::before {
+    .upper-block__title::before {
         right: 21px;
     }
 
@@ -335,16 +321,11 @@
 
     @media (min-width: 1120px) {
 
-        .wrapper {
-            width: 1120px;
-            height: 535px;
-        }
-
         .header {
             display: none;
         }
 
-        .nav {
+        .upper-block {
             padding-top: 30px;
             flex-direction: row;
             justify-content: space-between;

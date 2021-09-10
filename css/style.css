@@ -133,7 +133,17 @@
     padding: 0px;
     white-space: nowrap; 
     position: relative;
+    border: hotpink 1px solid;
 }
+
+/* .slide-menu__gradient {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    height: 40px;
+    width: 24px;
+    border: hotpink 1px solid;
+} */
 
 .slide-menu::after {
     content: "";
@@ -143,6 +153,7 @@
     width: 24px;
     background: url("../img/images/fade.png") no-repeat;
     background-size: 24px 40px;
+    border: hotpink 1px solid;
 }
 
 .slide-menu__button {

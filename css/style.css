@@ -10,7 +10,7 @@
 }
 
 .head-menu {
-    height: 88px;
+    min-height: 88px;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -115,28 +115,21 @@
     display: none;
 }
 
-.block__text--visibility {
-    display: none;
-}
-
 .slide-menu {
     margin-left: 20px;
     display: flex;
     overflow-x: scroll;
     list-style: none;
     width: auto; 
-    height: 40px; 
+    min-height: 40px; 
     padding: 0px;
     white-space: nowrap; 
     position: relative;
-    border: hotpink 1px solid;
 }
 
 .slide-menu__gradient {
     position: absolute;
     right: 0;
-    z-index: 10;
-    border: hotpink 1px solid;
 }
 
 .slide-menu__gradient::after {
@@ -159,6 +152,7 @@
 .slide-menu__button:active {
     border: #90f8e7 solid 2px;
     border-radius: 5px;
+    padding: 6px 13px;
 }
 
 .block {
@@ -174,6 +168,14 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
+}
+
+.block__text--visibility-768px {
+    display: none;
+}
+
+.block__text--visibility-1120px {
+    display: none;
 }
 
 .read-more {
@@ -251,7 +253,7 @@
     }
 
     .slide-menu {
-        margin: 0 0 0 22px;
+        margin-bottom: 22px;
     }
 
     .slide-menu__button {
@@ -273,7 +275,7 @@
         letter-spacing: 0.2px;
     }
 
-    .block__text2 {
+    .block__text--visibility-768px {
         display: contents;
     }
 
@@ -306,10 +308,10 @@
         }
 
         .add-btn {
-            width: 235px;
+            width: 400px;
             margin-right: 25px;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-self: center;
             font-size: 16px;
             line-height: 24px;
@@ -319,6 +321,10 @@
 
         .head-menu__icons::before {
             display: none;
+        }
+
+        .add-btn__repair {
+            margin-right: 156px;
         }
 
         .add-btn__repair::before {
@@ -350,6 +356,10 @@
             white-space:normal;
         }
 
+        .slide-menu__gradient {
+            display: none;
+        }
+
         .slide-menu__button-visibility {
             display: none;
         }
@@ -369,12 +379,11 @@
             margin-top: 5px;
         }
 
-        .block__text3 {
+        .block__text--visibility-1120px {
             display: contents;
         }
 
         .read-more {
-            margin-bottom: 100px;
             background-color: #F8F8F8;
         }
 

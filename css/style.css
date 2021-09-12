@@ -28,6 +28,7 @@
 
 .head-menu__burger-logo {
     width: 188px;
+    margin-right: auto;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
@@ -120,7 +121,9 @@
 
 .slide-menu {
     margin-left: 20px;
-    overflow-x: scroll; 
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
     width: auto; 
     height: 40px; 
     padding: 0px;
@@ -129,30 +132,26 @@
     border: hotpink 1px solid;
 }
 
-/* .slide-menu__gradient {
+.slide-menu__gradient {
     position: absolute;
     right: 0;
     z-index: 10;
-    height: 40px;
-    width: 24px;
-    border: hotpink 1px solid;
-} */
-
-.slide-menu::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    height: 40px;
-    width: 24px;
-    background: url("../img/images/fade.png") no-repeat;
-    background-size: 24px 40px;
     border: hotpink 1px solid;
 }
 
-.slide-menu__button {
+.slide-menu__gradient::after {
+    content: "";
+    position: relative;
+    display: block;
     height: 40px;
+    width: 24px;
+    background: url("../img/images/fade.png") no-repeat;
+}
+
+.slide-menu__button {
+    display: block;
     margin: 0px;
-    padding: 0 15px;
+    padding: 8px 15px;
     background-color: white;
     border: none;
 }
@@ -160,16 +159,6 @@
 .slide-menu__button:active {
     border: #90f8e7 solid 2px;
     border-radius: 5px;
-}
-
-.slide-menu__text {
-    margin: 0px;
-    padding: 0px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    color: #7E7E82;
 }
 
 .block {
@@ -191,36 +180,21 @@
     margin: 16px;
     padding: 0;
     height: 24px;
-    width: 134px;
+    width: 120px;
     border: none;
     background-color: white;
     display: flex;    
     justify-content: space-between;
-}
-
-.read-more__icon {
-    margin-top: 2px;
-    height: 24px;
-    width: 24px;
-    position: relative;
-    left: 0px;
-}
-
-.read-more__arrow {
-    height: 10px;
-    width: 7.5px;
-}
-
-.read-more__text {
-    margin: 0;
-    height: 24px;
-    width: 102px;
-    font-family: TT Lakes;
+    align-items: center;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    color: #1B1C21;
+}
+
+.read-more::before {
+    content: "";
+    background-image: url("../img/icons/arrow.png");
+    width: 8px;
+    height: 11px;
 }
 
 .block1__image {
@@ -253,7 +227,7 @@
         width: 180px;
         height: 40px;
         position: relative;
-        left: 125px;
+        margin-right: 16px;
         display: flex;
         justify-content: space-evenly;
     }

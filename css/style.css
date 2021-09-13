@@ -169,16 +169,10 @@
     letter-spacing: 0.2px;
 }
 
-.content__p {
+.content__text {
     margin-bottom: 1.3em;
-}
-
-.content__description--visibility-768px {
-    display: none;
-}
-
-.content__description--visibility-1120px {
-    display: none;
+    max-height: 90px;
+    overflow: hidden;
 }
 
 .read-more {
@@ -272,13 +266,13 @@
     .content__description {
         margin: 0;
         width: 312px;
-        height: 160px;
         line-height: 20px;
         letter-spacing: 0.2px;
     }
 
-    .content__description--visibility-768px {
-        display: contents;
+    .content__text {
+        width: auto;
+        max-height: 160px;
     }
 
     .read-more {
@@ -392,10 +386,6 @@
             width: 490px; 
             height: 160px;
             margin-top: 5px;
-        }
-
-        .content__description--visibility-1120px {
-            display: contents;
         }
 
         .read-more {

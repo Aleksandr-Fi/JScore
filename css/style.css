@@ -88,20 +88,20 @@
     border-radius: 1px;
 }
 
-.upper-block {
+.menu {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.upper-block__title {
+.menu__title {
     margin-left: 12px;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6px;
 }
 
-.upper-block__title::before {
+.menu__title::before {
     content: "";
     position: relative;
     right: 13px;
@@ -155,29 +155,29 @@
     padding: 6px 13px;
 }
 
-.block {
+.content {
     height: 234px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.block__text {
+.content__description {
     margin: 0 16px;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
 }
 
-.block__p {
+.content__p {
     margin-bottom: 1.3em;
 }
 
-.block__text--visibility-768px {
+.content__description--visibility-768px {
     display: none;
 }
 
-.block__text--visibility-1120px {
+.content__description--visibility-1120px {
     display: none;
 }
 
@@ -202,7 +202,7 @@
     height: 11px;
 }
 
-.block1__image {
+.content__image {
     width: 320px;
     height: 176px;
 }
@@ -246,11 +246,11 @@
         background-color: #F8F8F8;
     }
 
-    .upper-block {
+    .menu {
         margin-left: 10px;
     }
 
-    .upper-block__title::before {
+    .menu__title::before {
         right: 21px;
     }
 
@@ -262,14 +262,14 @@
         background-color: #F8F8F8;
     }
 
-    .block {        
+    .content {        
         margin-left: 24px;
         min-width: 720px;
         max-height: 208px;
         flex-wrap: wrap;
     }
 
-    .block__text {
+    .content__description {
         margin: 0;
         width: 312px;
         height: 160px;
@@ -277,7 +277,7 @@
         letter-spacing: 0.2px;
     }
 
-    .block__text--visibility-768px {
+    .content__description--visibility-768px {
         display: contents;
     }
 
@@ -287,7 +287,7 @@
         background-color: #F8F8F8;
     }
 
-    .block__image {
+    .content__image {
         margin-left: 48px;
         width: 360px;
         height: 208px;
@@ -302,7 +302,7 @@
             display: none;
         }
 
-        .upper-block {
+        .menu {
             padding-top: 30px;
             flex-direction: row;
             justify-content: space-between;
@@ -383,18 +383,18 @@
             display: none;
         }
 
-        .block {
+        .content {
             min-width: 1057px; 
             min-height: 307px;
         }
 
-        .block__text {
+        .content__description {
             width: 490px; 
             height: 160px;
             margin-top: 5px;
         }
 
-        .block__text--visibility-1120px {
+        .content__description--visibility-1120px {
             display: contents;
         }
 
@@ -402,7 +402,7 @@
             background-color: #F8F8F8;
         }
 
-        .block__image {
+        .content__image {
             width: 532px; 
             height: 307px;
         }

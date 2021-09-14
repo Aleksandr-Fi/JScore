@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+
+    .header {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .aside-menu {
+        width: 320px;
+        height: 100%;
+        position: relative;
+        left: 0;
+        border: olivedrab dashed 1px;
+    }
+
+    .aside-panel__main {
+        margin-bottom: auto;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+
+
+    .wrapper {
+        display: contents;
+    }
+
+
+
+}

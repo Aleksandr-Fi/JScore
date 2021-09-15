@@ -1,8 +1,6 @@
 @import url(../fonts/TTLakes/stylesheet.css);
 
 .wrapper {
-    width: 320px;
-    height: 597px;
     margin: 0 auto;
     font-family: 'TT Lakes';
     color: #1B1C21;
@@ -13,7 +11,7 @@
 }
 
 .head-menu {
-    height: 88px;
+    min-height: 88px;
     width: auto;
     display: flex;
     justify-content:space-between;
@@ -50,7 +48,7 @@
     background-image: url('../img/icons/logo.svg');
 }
 
-.add__icons {
+.add-icons {
     display: none;
 }
 
@@ -129,7 +127,7 @@
     margin-left: 20px;
     overflow-x: scroll; 
     width: auto; 
-    height: 40px; 
+    max-height: 40px; 
     padding: 0px;
     white-space: nowrap; 
     position: relative;
@@ -169,9 +167,8 @@
 }
 
 .block {
-    
     margin-top: 20px;
-    height: 234px;
+    max-height: 234px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -228,8 +225,6 @@
 @media (min-width: 768px) {
 
     .wrapper {
-        width: 768px;
-        height: 504px;
         margin: 0 auto;
         font-family: 'TT Lakes';
     }
@@ -253,7 +248,7 @@
         left: 25px;
     }
 
-    .add__icons {
+    .add-icons {
         width: 180px;
         height: 40px;
         position: relative;
@@ -323,11 +318,6 @@
     }
 
     @media (min-width: 1120px) {
-
-        .wrapper {
-            width: 1120px;
-            height: 535px;
-        }
 
         .header {
             display: none;

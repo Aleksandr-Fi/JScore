@@ -1,0 +1,38 @@
+.aside-panel {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .header {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .aside-panel {
+        display: block;
+        max-width: 320px;
+        height: 100%;
+        box-sizing: border-box;
+        margin-right: auto;
+        position: relative;
+        left: 0;
+        border: olivedrab dashed 1px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .aside-panel {
+        display: none;
+    }
+
+    .main {
+        display: contents;
+    }
+
+}

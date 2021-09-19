@@ -21,6 +21,9 @@
         flex-direction: column;
         z-index: 10;
         overflow-y: scroll;
+        box-shadow: 
+        -2px 0px 4px rgb(69 79 126 / 2%),
+        16px 0px 52px rgb(14 24 80 / 20%);
 
         font-family: TT Lakes;
         font-size: 16px;
@@ -70,6 +73,10 @@
         position: relative;
     }
 
+    .panel-menu__btn--active {
+        color: #7E7E82;
+    }
+
     .panel-menu__btn--active::before {
         content: "";
         display: block;
@@ -99,6 +106,10 @@
     .lang-select {
         margin-top: 40px;
         margin-bottom: 32px;
+    }
+
+    .lang-select__btn--active {
+        color: #7E7E82;
     }
 
 }

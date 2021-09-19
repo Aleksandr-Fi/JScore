@@ -5,22 +5,26 @@
 @media (min-width: 768px) {
 
     .header {
-        display: none;
+        /* display: none; */
     }
 
     .main {
-        display: none;
+        /* display: none; */
     }
 
     .aside-panel {
-        display: block;
         max-width: 320px;
         height: 100%;
-        box-sizing: border-box;
-        margin-right: auto;
-        position: relative;
+        position: fixed;
         left: 0;
+        /* display: flex; */
+        flex-direction: column;
+
         border: olivedrab dashed 1px;
+    }
+
+    .panel-menu {
+        flex: 1 1 auto;
     }
 
 }

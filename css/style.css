@@ -16,7 +16,7 @@
     align-items:center;
 }
 
-.head-menu__button {
+.icon__btn {
     border: none;
     height: 40px;
     width: 40px;
@@ -47,38 +47,38 @@
     background-image: url('../img/icons/logo.svg');
 }
 
-.add__icons {
+.add-icons {
     display: none;
 }
 
-.head-menu__call {
+.add-icons__call {
     background-image: url('../img/icons/icon-call.svg');
 }
 
-.head-menu__chat {
+.add-icons__chat {
     background-image: url('../img/icons/icon-chat.svg');
 }
 
-.head-menu__profile {
+.add-icons__profile {
     background-image: url('../img/icons/Group-profile.svg');
 }
 
-.head-menu__icons {
+.set-icons {
     width: 134px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
 }
 
-.head-menu__repair {
+.set-icons__repair {
     background-image: url('../img/icons/Group-repair.svg');
 }
 
-.head-menu__checkstatus {
+.set-icons__checkstatus {
     background-image: url('../img/icons/icon-checkstatus.svg');
 }
 
-.head-menu__icons::before {
+.set-icons::before {
     content: "";
     position: relative;
     right: 9px;
@@ -221,7 +221,7 @@
         left: 25px;
     }
 
-    .add__icons {
+    .add-icons {
         width: 180px;
         height: 40px;
         position: relative;
@@ -230,7 +230,7 @@
         justify-content: space-evenly;
     }
 
-    .head-menu__icons {
+    .set-icons {
         position: relative;
         right: 10px;
     }
@@ -314,7 +314,7 @@
             letter-spacing: -0.2px;
         }
 
-        .head-menu__icons::before {
+        .set-icons::before {
             display: none;
         }
 

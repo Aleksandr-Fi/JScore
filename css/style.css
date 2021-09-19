@@ -26,6 +26,10 @@
     background-repeat: no-repeat;
 }
 
+.icon__btn:hover {
+    filter: opacity(0.8);
+}
+
 .head-menu__burger-logo {
     width: 188px;
     margin-right: auto;

@@ -92,6 +92,10 @@
     border-radius: 1px;
 }
 
+.main {
+    background-color: #F8F8F8;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -148,7 +152,7 @@
     display: block;
     margin: 0px;
     padding: 8px 15px;
-    background-color: white;
+    background-color: #F8F8F8;
     border: none;
 }
 
@@ -239,10 +243,6 @@
         right: 10px;
     }
 
-    .main {
-        background-color: #F8F8F8;
-    }
-
     .menu {
         margin-left: 10px;
     }
@@ -253,10 +253,6 @@
 
     .slide-menu {
         margin-bottom: 22px;
-    }
-
-    .slide-menu__button {
-        background-color: #F8F8F8;
     }
 
     .content {        

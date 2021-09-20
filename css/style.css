@@ -52,8 +52,17 @@
 }
 
 .add-icons {
-    display: none;
+    width: 152px;
+    height: 40px;
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
 }
+
+/* .add-icons {
+    display: none;
+} */
 
 .add-icons__call {
     background-image: url('../img/icons/icon-call.svg');
@@ -227,15 +236,6 @@
     .head-menu__logo{
         position: relative;
         left: 25px;
-    }
-
-    .add-icons {
-        width: 152px;
-        height: 40px;
-        position: relative;
-        margin-right: 20px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .set-icons {

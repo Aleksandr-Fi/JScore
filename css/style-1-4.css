@@ -1,16 +1,3 @@
-.aside-panel {
-    display: none;
-}
-
-@media (min-width: 768px) {
-
-    .header {
-        display: none;
-    }
-
-    .main {
-        display: none;
-    }
 
     .aside-panel {
         width: 320px;
@@ -111,17 +98,3 @@
     .lang-select__btn--active {
         color: #7E7E82;
     }
-
-}
-
-@media (min-width: 1440px) {
-
-    .aside-panel {
-        display: none;
-    }
-
-    .main {
-        display: block;
-    }
-
-}

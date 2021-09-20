@@ -1,0 +1,100 @@
+
+    .aside-panel {
+        width: 320px;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        overflow-y: scroll;
+        box-shadow: 
+        -2px 0px 4px rgb(69 79 126 / 2%),
+        16px 0px 52px rgb(14 24 80 / 20%);
+
+        font-family: TT Lakes;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
+        font-weight: 600;
+    }
+
+    .panel-header {
+        box-sizing: border-box;
+        min-height: 88px;
+        padding: 0 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .panel-header__close {
+        background-image: url('../img/icons/icon-close.svg');
+    }
+
+    .panel-header__logo {
+        margin-left: 16px;
+        margin-right: auto;
+    }
+
+    .panel-header__search {
+        background-image: url('../img/icons/icon-search.svg');
+    }
+
+    .panel-menu {
+        padding: 0 24px;
+        flex: 1 1 auto;
+    }
+
+    .panel-menu__list {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 32px;
+    }
+
+    .panel-menu__btn {
+        position: relative;
+    }
+
+    .panel-menu__btn--active {
+        color: #7E7E82;
+    }
+
+    .panel-menu__btn--active::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: -24px;
+        height: 32px;
+        border-right: #41F6D7 solid 4px;
+        border-radius: 0 4px 4px 0;
+    }
+
+    .panel-contact {
+        margin-top: 16px;
+        padding: 0 24px;
+    }
+
+    .panel-contact__mail {
+        margin-top: 16px;
+    }
+
+    .panel-contact__number-phone {
+        margin-top: 12px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .lang-select {
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+
+    .lang-select__btn--active {
+        color: #7E7E82;
+    }

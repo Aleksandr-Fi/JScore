@@ -1,12 +1,20 @@
 
+    .overlay {
+        width: 100vw;
+        height: 100vh;
+        filter: opacity(0.04);
+        position: absolute;
+        z-index: -1;
+    }
+
     .aside-panel {
-        width: 320px;
+        max-width: 320px;
         height: 100%;
         position: fixed;
         left: 0;
         display: flex;
         flex-direction: column;
-        z-index: 10;
+        isolation: isolate;
         overflow-y: scroll;
         box-shadow: 
         -2px 0px 4px rgb(69 79 126 / 2%),
@@ -22,6 +30,7 @@
 
     .panel-header {
         box-sizing: border-box;
+        min-width: 320px;
         min-height: 88px;
         padding: 0 24px;
         display: flex;
@@ -53,23 +62,30 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        row-gap: 32px;
+        row-gap: 24px;
     }
 
-    .panel-menu__btn {
-        position: relative;
+    .panel-menu__a {
+        display: block;
+        padding: 4px;
+
+        text-decoration: none;
+        font-family: TT Lakes;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
     }
 
-    .panel-menu__btn--active {
+    .panel-menu__a--active {
         color: #7E7E82;
     }
 
-    .panel-menu__btn--active::before {
+    .panel-menu__a--active::before {
         content: "";
         display: block;
         position: absolute;
-        top: -8px;
-        left: -24px;
+        transform: translate(-28px, -5px);
         height: 32px;
         border-right: #41F6D7 solid 4px;
         border-radius: 0 4px 4px 0;

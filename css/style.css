@@ -360,7 +360,7 @@
         .slide-menu__button {
             display: block;
             max-height: 40px;
-            vertical-align: middle;
+            /* vertical-align: middle; */
             white-space: nowrap;
         }
 

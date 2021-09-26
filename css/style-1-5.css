@@ -1,6 +1,7 @@
 .brands {
     box-sizing: border-box;
     min-width: 320px;
+    max-height: 234px;
     padding-left: 16px;
 }
 
@@ -17,11 +18,36 @@
     background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98%);
 }
 
-.swiper__brands-block {
+.swiper-brands {
+    min-height: 154px;
+}
+
+.swiper-brands__gradient {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.swiper-brands__gradient::before {
+    content: "";
+    background: url("../assets/img/images/fade-swiper.png") no-repeat;
+    position: relative;
+    right: 0;
+    display: block;
+    height: 88px;
+    width: 24px;
+}
+
+.swiper-brands__wrapper div.swiper-brands__slide {
+    width: 256px;
+}
+
+.swiper-brands__block {
     box-sizing: border-box;
     width: 240px;
     height: 72px;
     padding: 0 16px;
+    margin-top: 16px;
 
     border: 1px solid #EAEAEA;
     border-radius: 6px;
@@ -41,6 +67,16 @@
     background-image: url(../assets/img/icons/arrow-right.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+.swiper-brands__pagination {
+    top: 70%;
+}
+
+.swiper-brands__pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #B5B6BC;
 }
 
 .brands__btn-more {

@@ -213,6 +213,10 @@
     height: 11px;
 }
 
+.btn-more--active::before {
+    transform: rotate(0.5turn);
+}
+
 .content__image {
     width: 320px;
     height: 176px;

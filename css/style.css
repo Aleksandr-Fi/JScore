@@ -193,7 +193,7 @@
 
 .btn-more {
     height: 24px;
-    width: 134px;
+    /* width: 134px; */
     /* margin: 16px; */
     padding: 0;
     padding-left: 8px;
@@ -201,6 +201,7 @@
     background-color: inherit;
     display: flex;    
     justify-content: space-between;
+    gap: 16px;
     align-items: center;
     font-size: 16px;
     font-weight: 600;

@@ -61,14 +61,24 @@
 }
 
 .btn-ar {
+    box-sizing: border-box;
     border: 2px solid #FF3E79;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: inherit;
     background-image: url(../assets/img/icons/arrow-right.svg);
-    background-position: 50% 50%;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn-ar:active {
+    height: 41px;
+    width: 41px;
+}
+
+.btn-ar:hover {
+    background-size: 32%;
 }
 
 .swiper-brands__pagination {

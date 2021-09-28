@@ -102,10 +102,6 @@
         width: 224px;
     }
 
-    .swiper-brands__pagination {
-        display: none;
-    }
-
     .brands__btn-more {
         display: flex;
     }

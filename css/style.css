@@ -192,10 +192,11 @@
 }
 
 .btn-more {
-    margin: 16px;
-    padding: 0;
     height: 24px;
-    width: 120px;
+    width: 134px;
+    /* margin: 16px; */
+    padding: 0;
+    padding-left: 8px;
     border: none;
     background-color: inherit;
     display: flex;    
@@ -275,8 +276,8 @@
     }
 
     .btn-more {
-        margin: 10px;
-        margin-left: 2px;
+        /* margin: 10px;
+        margin-left: 2px; */
     }
 
     .content__image {

@@ -33,5 +33,4 @@ btnMore.onclick = function() {
     btnMore.classList.toggle('btn-more--active');
     btnMore.innerHTML = (btnMore.innerHTML === 'Скрыть') ? btnMore.innerHTML = 'Показать все' : btnMore.innerHTML = 'Скрыть';
     document.querySelector(".swiper-brands__wrapper").classList.toggle('swiper-brands__wrapper--open');
-
 }

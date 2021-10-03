@@ -3,6 +3,8 @@
     /* min-width: 320px;
     padding-left: 16px; */
     width: 95%;
+    padding: 0;
+    margin: 0;
     margin-left: auto;
 }
 
@@ -15,13 +17,13 @@
     font-weight: 500;
     color: #7E7E82;
     padding: 16px 0;
-    margin: 0;
 
     background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98%);
 }
 
 .swiper-brands {
     min-height: 154px;
+    margin: 0;
     padding: 16px;
 }
 
@@ -42,7 +44,7 @@
     width: 24px;
 }
 
-.swiper-brands__wrapper div.swiper-brands__slide {
+.swiper-brands__wrapper li.swiper-brands__slide {
     width: auto;
 }
 

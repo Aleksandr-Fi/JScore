@@ -39,7 +39,7 @@
   
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0;
   }
   
   /* Grouping content
@@ -357,4 +357,19 @@
   p {
     padding: 0;
     margin: 0;
+  }
+
+  menu {
+    margin: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: block;
+    text-align-last: auto
   }

@@ -1,7 +1,9 @@
 .brands {
     box-sizing: border-box;
-    min-width: 320px;
-    padding-left: 16px;
+    /* min-width: 320px;
+    padding-left: 16px; */
+    width: 95%;
+    margin-left: auto;
 }
 
 .brands__title {
@@ -13,6 +15,7 @@
     font-weight: 500;
     color: #7E7E82;
     padding: 16px 0;
+    margin: 0;
 
     background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98%);
 }
@@ -93,14 +96,16 @@
 
 .brands__btn-more {
     display: none;
+    cursor: pointer;
 }
 
-
+.brands__btn-more:hover {
+    filter: opacity(0.6);
+}
 
 @media (min-width: 768px) {
 
     .brands {
-        padding-left: 24px;
         padding-bottom: 34px;
     }
 
@@ -143,12 +148,12 @@
 
 @media (min-width: 1120px) {
 
-    .brands {
-        padding-left: 32px;
-    }
-
     .swiper-brands__wrapper {
         column-gap: 32px;
+    }
+
+    .swiper-brands__block {
+        width: 240px;
     }
 
 }

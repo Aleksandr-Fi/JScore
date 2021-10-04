@@ -8,12 +8,12 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 'auto',
 });
 
-let winWidth = window.screen.width;
+const winWidth = window.matchMedia('(min-width: 768px)');
 
 dest();
 
 function dest() {
-    if (winWidth >= 768) {
+    if (winWidth.matches) {
         swiper.destroy();
         document.querySelector('.swiper').classList.remove('swiper');
         document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');

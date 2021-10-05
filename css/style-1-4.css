@@ -1,13 +1,16 @@
 
     .overlay {
+        display: block;
         width: 100vw;
         height: 100vh;
-        filter: opacity(0.04);
+        filter: opacity(0.95);
         position: absolute;
-        /* z-index: -1; */
-        /* isolation: isolate; */
+        z-index: 2;
+        background: white;
+    }
 
-        background: #41F6D7;
+    .overlay--visibility--visible {
+        
     }
 
     .aside-panel {
@@ -20,7 +23,7 @@
         overflow-y: scroll;
 
         /* isolation: isolate; */
-        z-index: 2;
+        z-index: 3;
 
         background: #FFFFFF;
         box-shadow: 

@@ -3,7 +3,7 @@
         display: none;
     }
 
-    .overlay--visibility--visible {
+    .overlay--visibility--on {
         display: block;
         width: 100vw;
         height: 100vh;

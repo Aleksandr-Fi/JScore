@@ -1,16 +1,16 @@
 
     .overlay {
+        display: none;
+    }
+
+    .overlay--visibility--visible {
         display: block;
         width: 100vw;
         height: 100vh;
         filter: opacity(0.95);
         position: absolute;
         z-index: 2;
-        background: white;
-    }
-
-    .overlay--visibility--visible {
-        
+        background: white;        
     }
 
     .aside-panel {

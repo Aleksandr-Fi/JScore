@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSP design for practice</title>
+</head>
+<body class="wrapper">
+    <!-- block_1.4 -->
+    <div class="overlay"></div>
+    
+    <section class="aside-panel aside-panel--layuot--left">
+        <!-- <div class="panel-container"> -->
+            <div class="panel-header">
+                <button class="panel-header__close icon__btn"></button>
+                <img class="panel-header__logo" src="./img/icons/logo.svg">
+                <button class="panel-header__search icon__btn"></button>
+            </div>
+            <div class="panel-menu">
+                <ul class="panel-menu__list">
+                    <li class="panel-menu__btn"><a class="panel-menu__a panel-menu__a--active" href="">Ремонт техники</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Услуги и сервисы</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Корпоративным клиентам</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Продавцам техники</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Партнерам</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Производителям</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Наши сервисные центры</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="panel-contact">
+                <div class="add-icons">
+                    <button class="icon__btn add-icons__call"></button>
+                    <button class="icon__btn add-icons__chat"></button>
+                    <button class="icon__btn add-icons__profile"></button>
+                </div>
+                <p class="panel-contact__mail">mail@cps.com</p>
+                <p class="panel-contact__number-phone">8 800 890 8900</p>
+                <div class="lang-select">
+                    <batton class="lang-select__btn lang-ru lang-select__btn--active">RU</batton>
+                    <batton class="lang-select__btn lang-en">EN</batton>
+                    <batton class="lang-select__btn lang-ch">CH</batton>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+    <section class="panel-feedback"></section>
+    <section class="panel-call"></section>
+
+    <header class="header">
+        <div class="head-menu">
+            <div class="head-menu__burger-logo">
+                <button class="icon__btn head-menu__burger"></button>
+                <button class="head-menu__logo"></button>
+            </div>
+            <div class="add-icons">
+                <button class="icon__btn add-icons__call"></button>
+                <button class="icon__btn add-icons__chat"></button>
+                <button class="icon__btn add-icons__profile"></button>
+            </div>
+            <div class="set-icons">
+                <button class="icon__btn set-icons__repair"></button>
+                <button class="icon__btn set-icons__checkstatus"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="menu">
+            <h1 class="menu__title">Услуги и сервисы</h1>
+            <div class="set-icons add-btn">
+                <button class="icon__btn set-icons__repair add-btn__repair"></button>
+                <button class="icon__btn set-icons__checkstatus add-btn__checkstatus"></button>
+            </div>
+            <ul class="slide-menu">
+                <div class="slide-menu__gradient"></div>
+                <li class="slide-menu__button"><a>Ремонтируемые устройства</a></li>
+                <li class="slide-menu__button slide-menu__button-visibility"><a>Дополнительные услуги</a></li>
+                <li class="slide-menu__button"><a>Цены на услуги</a></li>
+                <li class="slide-menu__button"><a>Специальные цены</a></li>
+                <li class="slide-menu__button"><a>Ремонтируемые бренды</a></li>
+                <li class="slide-menu__button"><a>Адреса сервисных центров</a></li>
+                <li class="slide-menu__button"><a>Отзывы</a></li>
+            </ul>
+        </section>
+
+        <section class="content">
+            <div class="content__description">
+                <p class="content__text">Мы являемся авторизованным
+                    сервисным центром по ремонту техники
+                    Dell. Только у нас вы можете
+                    отремонтировать свой ноутбук Dell
+                    с официальной гарантией производителя.<br>
+                    <br>
+                    Мы успешно работаем с 1992 года и заслужили
+                    репутацию надежного партнера что подтверждает большое количество постоянных клиентов.
+                    Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                    в свою очередь, советуют нас родным и близким.
+                </p>
+                <button class="btn-more content__btn-more">Читать далее</button>
+            </div>
+            <div>
+                <img src="./img/images/Photo.jpg" class="content__image">
+            </div>
+        </section>
+
+        <!-- block_1.5 -->
+        <section class="brands">
+            <h1 class="brands__title">Ремонт техники различных брендов</h1>
+            <menu class="swiper swiper-brands">
+
+                <div class="swiper-brands__gradient"></div>
+
+                <ul class="swiper-wrapper swiper-brands__wrapper">
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Lenovo.png" alt="Lenovo" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Samsung.png" alt="Samsung" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Aple.png" alt="Aple" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/ViewSonic.png" alt="ViewSonic" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Bosch.png" alt="Bosch" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/hp.png" alt="hp" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/acer.png" alt="acer" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/sony.png" alt="sony" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Lenovo.png" alt="Lenovo" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Samsung.png" alt="Samsung" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                    <li class="swiper-slide swiper-brands__slide">
+                        <button class="swiper-brands__block">
+                            <img src="./assets/img/images/Aple.png" alt="Aple" class="swiper__img">
+                            <a class="swiper__btn btn-ar"></a>
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination swiper-brands__pagination"></div>
+            </menu>
+
+            <button class="btn-more brands__btn-more">Показать все</button>
+
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

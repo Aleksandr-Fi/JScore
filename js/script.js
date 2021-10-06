@@ -30,11 +30,17 @@ function dest() {
     };
 };
 
-let btnMore = document.querySelector('.btn-more');
+let btnMoreContent = document.querySelector('.content__btn-more');
+btnMoreContent.addEventListener('click', function() {
+    btnMoreContent.classList.toggle('btn-more--active');
+    btnMoreContent.innerHTML = (btnMoreContent.innerHTML === 'Скрыть') ? btnMoreContent.innerHTML = 'Читать далее' : btnMoreContent.innerHTML = 'Скрыть';
+});
+
+let btnMoreBrands = document.querySelector('.brands__btn-more');
 let bandsWrapper = document.querySelector(".swiper-brands__wrapper");
 
-btnMore.addEventListener('click', function() {
-    btnMore.classList.toggle('btn-more--active');
-    btnMore.innerHTML = (btnMore.innerHTML === 'Скрыть') ? btnMore.innerHTML = 'Показать все' : btnMore.innerHTML = 'Скрыть';
+btnMoreBrands.addEventListener('click', function() {
+    btnMoreBrands.classList.toggle('btn-more--active');
+    btnMoreBrands.innerHTML = (btnMoreBrands.innerHTML === 'Скрыть') ? btnMoreBrands.innerHTML = 'Показать все' : btnMoreBrands.innerHTML = 'Скрыть';
     bandsWrapper.classList.toggle('swiper-brands__wrapper--open');
 });

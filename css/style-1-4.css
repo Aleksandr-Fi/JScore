@@ -16,26 +16,27 @@
     .aside-panel {
         max-width: 320px;
         height: 100%;
-        position: fixed;
-        left: 0;
+        font-weight: 600;
+        background: #FFFFFF;
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
-
-        /* isolation: isolate; */
         z-index: 3;
+    }
 
-        background: #FFFFFF;
+    .aside-panel--layuot--left {
+        position: fixed;
+        left: 0;
+        transform: translateX(-100%);
+        box-shadow: 0 0 0 transparent;
+        transition: 1s;
+    }
+
+    .aside-panel--open {
+        transform: translateX(0px);
         box-shadow: 
         -2px 0px 4px rgb(69 79 126 / 2%),
         16px 0px 52px rgb(14 24 80 / 20%);
-
-        font-family: TT Lakes;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: -0.2px;
-        color: #1B1C21;
-        font-weight: 600;
     }
 
     .panel-header {

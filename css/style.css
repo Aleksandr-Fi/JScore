@@ -193,8 +193,6 @@
 
 .btn-more {
     height: 24px;
-    /* width: 134px; */
-    /* margin: 16px; */
     padding: 0;
     padding-left: 8px;
     border: none;
@@ -205,6 +203,11 @@
     align-items: center;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-more:hover {
+    filter: opacity(0.6);
 }
 
 .btn-more::before {

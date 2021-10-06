@@ -96,11 +96,6 @@
 
 .brands__btn-more {
     display: none;
-    cursor: pointer;
-}
-
-.brands__btn-more:hover {
-    filter: opacity(0.6);
 }
 
 @media (min-width: 768px) {

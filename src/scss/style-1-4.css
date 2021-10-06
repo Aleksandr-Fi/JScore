@@ -27,7 +27,7 @@
     .aside-panel--layuot--left {
         position: fixed;
         left: 0;
-        transform: translateX(-100%);
+        /* transform: translateX(-100%); */
         box-shadow: 0 0 0 transparent;
         transition: 1s;
     }
@@ -50,7 +50,7 @@
     }
 
     .panel-header__close {
-        background-image: url('../assets/img/icons/icon-close.svg');
+        background-image: url('../img/icons/icon-close.svg');
     }
 
     .panel-header__logo {
@@ -59,7 +59,7 @@
     }
 
     .panel-header__search {
-        background-image: url('../assets/img/icons/icon-search.svg');
+        background-image: url('../img/icons/icon-search.svg');
     }
 
     .panel-menu {

@@ -34,7 +34,7 @@
 
 .swiper-brands__gradient::before {
     content: "";
-    background: url("../assets/img/images/fade-swiper.png") no-repeat;
+    background: url("../img/images/fade-swiper.png") no-repeat;
     position: relative;
     right: 0;
     display: block;
@@ -70,7 +70,7 @@
     width: 40px;
     border-radius: 50%;
     background-color: inherit;
-    background-image: url(../assets/img/icons/arrow-right.svg);
+    background-image: url(../img/icons/arrow-right.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }

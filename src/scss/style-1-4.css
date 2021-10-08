@@ -27,7 +27,7 @@
     .aside-panel--layuot--left {
         position: fixed;
         left: 0;
-        /* transform: translateX(-100%); */
+        transform: translateX(-100%);
         box-shadow: 0 0 0 transparent;
         transition: 1s;
     }

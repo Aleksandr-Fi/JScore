@@ -1,0 +1,25 @@
+.technical-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    position: relative;
+
+    .technical-icons__repair {
+        background-image: url('../img/icons/Group-repair.svg');
+    }
+    
+    .technical-icons__checkstatus {
+        margin-left: 16px;
+        background-image: url('../img/icons/icon-checkstatus.svg');
+    }
+    
+    &::before {
+        content: "";
+        position: relative;
+        right: 20px;
+        width: 0px;
+        height: 30px;
+        border: #EAEAEA solid 1px;
+        border-radius: 1px;
+    }
+}

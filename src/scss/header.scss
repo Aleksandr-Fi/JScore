@@ -1,9 +1,61 @@
 @import "icon-btn";
+@import "soical-icons";
+@import "technical-icons";
 
 .header {
     border-bottom: 1px solid #D9FFF5;
+    
+    .header__inner {
     min-height: 88px;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content:space-between;
     align-items:center;
+    }
+
+    .header__burger {
+        margin-right: 16px;
+        background-image: url('../img/icons/icon-burger.svg');
+        position: relative;
+    }
+    
+    .header__logo {
+        margin-right: auto;
+    }
+
+    .header__soical-icons {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        
+        .header__inner {
+        width: 95%;
+        position: relative;
+        }
+
+        .header__soical-icons {
+            display: flex;
+            margin-right: 40px;
+        }
+
+        .header__burger {
+            margin-right: 40px;
+        }
+
+        .header__inner::before {
+            content: "";
+            position: absolute;
+            left: 60px;
+            width: 0px;
+            height: 30px;
+            border: #EAEAEA solid 1px;
+            border-radius: 1px;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        display: none;
+    }
 }

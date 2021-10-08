@@ -1,4 +1,4 @@
-.icon__btn {
+.icon-btn {
   border: none;
   height: 40px;
   width: 40px;
@@ -8,14 +8,76 @@
   background-repeat: no-repeat;
 }
 
-.icon__btn .icon__btn:hover {
+.icon-btn .icon-btn:hover {
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
 }
 
+.soical-icons {
+  width: 152px;
+  height: 40px;
+  position: relative;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.soical-icons .soical-icons__call {
+  background-image: url("../img/icons/icon-call.svg");
+}
+
+.soical-icons .soical-icons__chat {
+  background-image: url("../img/icons/icon-chat.svg");
+}
+
+.soical-icons .soical-icons__profile {
+  background-image: url("../img/icons/Group-profile.svg");
+}
+
+.technical-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.technical-icons .technical-icons__repair {
+  background-image: url("../img/icons/Group-repair.svg");
+}
+
+.technical-icons .technical-icons__checkstatus {
+  margin-left: 16px;
+  background-image: url("../img/icons/icon-checkstatus.svg");
+}
+
+.technical-icons::before {
+  content: "";
+  position: relative;
+  right: 20px;
+  width: 0px;
+  height: 30px;
+  border: #EAEAEA solid 1px;
+  border-radius: 1px;
+}
+
 .header {
   border-bottom: 1px solid #D9FFF5;
+}
+
+.header .header__inner {
   min-height: 88px;
+  width: 90%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,4 +87,49 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header .header__burger {
+  margin-right: 16px;
+  background-image: url("../img/icons/icon-burger.svg");
+  position: relative;
+}
+
+.header .header__logo {
+  margin-right: auto;
+}
+
+.header .header__soical-icons {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header .header__inner {
+    width: 95%;
+    position: relative;
+  }
+  .header .header__soical-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 40px;
+  }
+  .header .header__burger {
+    margin-right: 40px;
+  }
+  .header .header__inner::before {
+    content: "";
+    position: absolute;
+    left: 60px;
+    width: 0px;
+    height: 30px;
+    border: #EAEAEA solid 1px;
+    border-radius: 1px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    display: none;
+  }
 }

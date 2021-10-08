@@ -1,104 +1,104 @@
 @import url(../fonts/TTLakes/stylesheet.css);
 
 .wrapper {
-    font-family: 'TT Lakes';
-    color: #1B1C21;
+    /* font-family: 'TT Lakes';
+    color: #1B1C21; */
 }
 
 .header {
-    border-bottom: 1px solid #D9FFF5;
+    /* border-bottom: 1px solid #D9FFF5; */
 }
 
 .head-menu {
-    min-height: 88px;
+    /* min-height: 88px;
     display: flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:center; */
 }
 
-.icon__btn {
-    border: none;
+.icon-btn {
+    /* border: none;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: #FF3E79;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
-.icon__btn:hover {
-    filter: opacity(0.8);
+.icon-btn:hover {
+    /* filter: opacity(0.8); */
 }
 
-.head-menu__burger-logo {
+/* .head-menu__burger-logo {
     width: 188px;
     margin-right: auto;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
     position: relative;
-}
+} */
 
 .head-menu__burger {    
-    background-image: url('../img/icons/icon-burger.svg');
+    /* background-image: url('../img/icons/icon-burger.svg'); */
 }
 
-.head-menu__logo {
+/* .head-menu__logo {
     background-color: white;
     border: none;
     width: 97px;
     height: 51px;
     background-image: url('../img/icons/logo.svg');
-}
+} */
 
 .add-icons {
-    width: 152px;
+    /* width: 152px;
     height: 40px;
     position: relative;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .add-icons {
-    display: none;
+    /* display: none; */
 }
 
 .add-icons__call {
-    background-image: url('../img/icons/icon-call.svg');
+    /* background-image: url('../img/icons/icon-call.svg'); */
 }
 
 .add-icons__chat {
-    background-image: url('../img/icons/icon-chat.svg');
+    /* background-image: url('../img/icons/icon-chat.svg'); */
 }
 
 .add-icons__profile {
-    background-image: url('../img/icons/Group-profile.svg');
+    /* background-image: url('../img/icons/Group-profile.svg'); */
 }
 
 .set-icons {
-    width: 134px;
+    /* width: 134px;
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items:center; */
 }
 
 .set-icons__repair {
-    background-image: url('../img/icons/Group-repair.svg');
+    /* background-image: url('../img/icons/Group-repair.svg'); */
 }
 
 .set-icons__checkstatus {
-    background-image: url('../img/icons/icon-checkstatus.svg');
+    /* background-image: url('../img/icons/icon-checkstatus.svg'); */
 }
 
 .set-icons::before {
-    content: "";
+    /* content: "";
     position: relative;
     right: 9px;
     width: 0px;
     height: 30px;
     border: #EAEAEA solid 1px;
-    border-radius: 1px;
+    border-radius: 1px; */
 }
 
 .main {

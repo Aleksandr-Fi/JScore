@@ -23,9 +23,9 @@
     <section class="aside-panel aside-panel--layuot--left">
         <!-- <div class="panel-container"> -->
             <div class="panel-header">
-                <button class="panel-header__close icon__btn"></button>
+                <button class="panel-header__close icon-btn"></button>
                 <img class="panel-header__logo" src="src/img/icons/logo.svg">
-                <button class="panel-header__search icon__btn"></button>
+                <button class="panel-header__search icon-btn"></button>
             </div>
             <div class="panel-menu">
                 <ul class="panel-menu__list">
@@ -40,10 +40,10 @@
                 </ul>
             </div>
             <div class="panel-contact">
-                <div class="add-icons">
-                    <button class="icon__btn add-icons__call"></button>
-                    <button class="icon__btn add-icons__chat"></button>
-                    <button class="icon__btn add-icons__profile"></button>
+                <div class="soical-icons">
+                    <button class="icon-btn soical-icons__call"></button>
+                    <button class="icon-btn soical-icons__chat"></button>
+                    <button class="icon-btn soical-icons__profile"></button>
                 </div>
                 <p class="panel-contact__mail">mail@cps.com</p>
                 <p class="panel-contact__number-phone">8 800 890 8900</p>
@@ -63,31 +63,17 @@
     <section class="panel-call"></section>
 
     <header class="header">
-        <!-- удалить ненужный див  -->
-        <div class="head-menu">
-            <!-- удалить ненужный див -->
-            <div class="head-menu__burger-logo">
-                <!-- хедер__бургер -->
-                <button class="icon__btn head-menu__burger"></button>
-                <!-- лого хедер__лого -->
-                <button class="head-menu__logo"></button>
+        <div class="header__inner">
+            <button class="icon-btn header__burger"></button>
+            <img class="header__logo" src="src/img/icons/logo.svg">
+            <div class="soical-icons header__soical-icons">
+                <button class="icon-btn soical-icons__call"></button>
+                <button class="icon-btn soical-icons__chat"></button>
+                <button class="icon-btn soical-icons__profile"></button>
             </div>
-            <!-- soical-icons -->
-            <div class="add-icons">
-                <!-- перименовать в icon-btn -->
-                <!-- soical-icons__call  -->
-                <button class="icon__btn add-icons__call"></button>
-                <!-- soical-icons__chat  -->
-                <button class="icon__btn add-icons__chat"></button>
-                <!-- soical-icons__profile  -->
-                <button class="icon__btn add-icons__profile"></button>
-            </div>
-            <!-- technical-icons -->
-            <div class="set-icons">
-                <!-- technical-icons__repair -->
-                <button class="icon__btn set-icons__repair"></button>
-                <!-- technical-icons__checkstatus -->
-                <button class="icon__btn set-icons__"></button>
+            <div class="technical-icons">
+                <button class="icon-btn technical-icons__repair"></button>
+                <button class="icon-btn technical-icons__checkstatus"></button>
             </div>
         </div>
     </header>
@@ -97,11 +83,11 @@
         <menu class="main-menu">
             <h1 class="main-menu__title">Услуги и сервисы</h1>
             <!-- technical-icons technical-icons--hidden и название элемента main-menu__btn -->
-            <div class="set-icons add-btn">
+            <div class="technical-icons add-btn">
                 <!-- main-menu__repair -->
-                <button class="icon__btn set-icons__repair add-btn__repair"></button>
+                <button class="icon-btn technical-icons__repair add-btn__repair"></button>
                 <!-- main-menu__checkstatus -->
-                <button class="icon__btn set-icons__checkstatus add-btn__checkstatus"></button>
+                <button class="icon-btn technical-icons__checkstatus add-btn__checkstatus"></button>
             </div>
             <!-- main-menu__slider  -->
             <ul class="slide-menu">

@@ -38,7 +38,7 @@
   background-image: url("../img/icons/Group-profile.svg");
 }
 
-.technical-icons {
+.tech-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,23 +51,13 @@
   position: relative;
 }
 
-.technical-icons .technical-icons__repair {
+.tech-icons .tech-icons__repair {
   background-image: url("../img/icons/Group-repair.svg");
 }
 
-.technical-icons .technical-icons__checkstatus {
+.tech-icons .tech-icons__checkstatus {
   margin-left: 16px;
   background-image: url("../img/icons/icon-checkstatus.svg");
-}
-
-.technical-icons::before {
-  content: "";
-  position: relative;
-  right: 20px;
-  width: 0px;
-  height: 30px;
-  border: #EAEAEA solid 1px;
-  border-radius: 1px;
 }
 
 .header {
@@ -101,6 +91,16 @@
 
 .header .header__soical-icons {
   display: none;
+}
+
+.header .tech-icons::before {
+  content: "";
+  position: relative;
+  right: 20px;
+  width: 0px;
+  height: 30px;
+  border: #EAEAEA solid 1px;
+  border-radius: 1px;
 }
 
 @media (min-width: 768px) {

@@ -102,7 +102,7 @@
 }
 
 .main {
-    background-color: #F8F8F8;
+    /* background-color: #F8F8F8; */
 }
 
 .menu {
@@ -128,9 +128,9 @@
     border-radius: 0 4px 4px 0;
 }
 
-.add-btn {
+/* .add-btn {
     display: none;
-}
+} */
 
 .slide-menu {
     margin-left: 20px;
@@ -228,7 +228,7 @@
 
 @media (min-width: 768px) {
 
-    .head-menu__burger-logo {
+    /* .head-menu__burger-logo {
         position: relative;
     }
 
@@ -244,15 +244,15 @@
 
     .head-menu__logo{
         position: relative;
-        left: 25px;
+        left: 25px; */
     }
 
-    .set-icons {
+    /* .set-icons {
         position: relative;
         right: 10px;
-    }
+    } */
 
-    .menu {
+    /* .menu {
         margin-left: 10px;
     }
 
@@ -262,7 +262,7 @@
 
     .slide-menu {
         margin-bottom: 22px;
-    }
+    } */
 
     .content {        
         margin-left: 24px;
@@ -295,7 +295,7 @@
     @media (min-width: 1120px) {
 
         .header {
-            display: none;
+            /* display: none; */
         }
 
         .menu {
@@ -306,7 +306,7 @@
         }
 
         .add-btn {
-            width: 400px;
+            /* width: 400px;
             margin-right: 25px;
             display: flex;
             justify-content: flex-end;
@@ -314,35 +314,35 @@
             font-size: 16px;
             line-height: 24px;
             text-align: right;
-            letter-spacing: -0.2px;
+            letter-spacing: -0.2px; */
         }
 
-        .set-icons::before {
+        /* .set-icons::before {
             display: none;
-        }
+        } */
 
         .add-btn__repair {
-            margin-right: 156px;
+            /* margin-right: 156px; */
         }
 
         .add-btn__repair::before {
-            content: "Оставить  отзыв";
+            /* content: "Оставить  отзыв";
             display: block;
             position: relative;
             right: 150px;
             height: 24px;
             width: 140px;
-            padding: 8px;
+            padding: 8px; */
         }
 
         .add-btn__checkstatus::before {
-            content: "Статус ремонта";
+            /* content: "Статус ремонта";
             display: block;
             position: relative;
             right: 150px;
             height: 24px;
             width: 140px;
-            padding: 8px;
+            padding: 8px; */
         }
 
         .slide-menu {

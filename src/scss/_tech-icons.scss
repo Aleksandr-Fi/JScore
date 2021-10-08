@@ -1,0 +1,15 @@
+.tech-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    position: relative;
+
+    .tech-icons__repair {
+        background-image: url('../img/icons/Group-repair.svg');
+    }
+    
+    .tech-icons__checkstatus {
+        margin-left: 16px;
+        background-image: url('../img/icons/icon-checkstatus.svg');
+    }
+}

@@ -1,9 +1,10 @@
 @import "icon-btn";
 @import "soical-icons";
-@import "technical-icons";
+@import "tech-icons";
+@import "var";
 
 .header {
-    border-bottom: 1px solid #D9FFF5;
+    border-bottom: 1px solid $block-border-color;
     
     .header__inner {
     min-height: 88px;
@@ -28,6 +29,16 @@
         display: none;
     }
 
+    .tech-icons::before {
+        content: "";
+        position: relative;
+        right: 20px;
+        width: 0px;
+        height: 30px;
+        border: $btn-border-color solid 1px;
+        border-radius: 1px;
+    }
+
     @media (min-width: 768px) {
         
         .header__inner {
@@ -50,7 +61,7 @@
             left: 60px;
             width: 0px;
             height: 30px;
-            border: #EAEAEA solid 1px;
+            border: $btn-border-color solid 1px;
             border-radius: 1px;
         }
     }

@@ -1,15 +1,19 @@
 @import url(../fonts/TTLakes/stylesheet.css);
 
-$general-color: #1B1C21;
-$block-border-color: #D9FFF5;
-$icon-bg-color: #FF3E79;
-$main-bg-color: #F8F8F8;
-$light-bg-color: white;
-$divider-color: #EAEAEA;
-$text-ind-color: #41F6D7;
-$active-btn-color: #90f8e7;
+@import "var";
 
 .wrapper {
     font-family: 'TT Lakes';
-    color: #1B1C21;
+    color: $text-color;
+
+
+    .main {
+        background: $main-backgound-color;
+    }
+
+    @media (min-width: 1440px) {
+        padding-left: 320px;
+        margin: 0 auto;
+        max-width: 1120px;
+    }
 }

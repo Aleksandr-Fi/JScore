@@ -9,9 +9,10 @@
     <!-- <link rel="stylesheet" href="./src/css/style(old).css"> -->
     <link rel="stylesheet" href="./src/css/style-1-4(old).css">
     <link rel="stylesheet" href="./src/css/style-1-5(old).css">
-    <link rel="stylesheet" href="./src/css/style.css">
 
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main-menu.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <title>CSP design for practice</title>
@@ -64,44 +65,37 @@
 
     <header class="header">
         <div class="header__inner">
-            <button class="icon-btn header__burger"></button>
-            <img class="header__logo" src="src/img/icons/logo.svg">
-            <div class="soical-icons header__soical-icons">
-                <button class="icon-btn soical-icons__call"></button>
-                <button class="icon-btn soical-icons__chat"></button>
-                <button class="icon-btn soical-icons__profile"></button>
-            </div>
-            <div class="technical-icons">
-                <button class="icon-btn technical-icons__repair"></button>
-                <button class="icon-btn technical-icons__checkstatus"></button>
-            </div>
+        <button class="icon-btn header__burger"></button>
+        <img class="header__logo" src="src/img/icons/logo.svg">
+        <div class="soical-icons header__soical-icons">
+            <button class="icon-btn soical-icons__call"></button>
+            <button class="icon-btn soical-icons__chat"></button>
+            <button class="icon-btn soical-icons__profile"></button>
         </div>
+        <div class="tech-icons">
+            <button class="icon-btn tech-icons__repair"></button>
+            <button class="icon-btn tech-icons__checkstatus"></button>
+        </div>
+    </div>
     </header>
 
     <main class="main">
 
         <menu class="main-menu">
             <h1 class="main-menu__title">Услуги и сервисы</h1>
-            <!-- technical-icons technical-icons--hidden и название элемента main-menu__btn -->
-            <div class="technical-icons add-btn">
-                <!-- main-menu__repair -->
-                <button class="icon-btn technical-icons__repair add-btn__repair"></button>
-                <!-- main-menu__checkstatus -->
-                <button class="icon-btn technical-icons__checkstatus add-btn__checkstatus"></button>
+            <div class="tech-icons main-menu__tech-icons">
+                <button class="icon-btn tech-icons__repair main-menu__repair"></button>
+                <button class="icon-btn tech-icons__checkstatus main-menu__checkstatus"></button>
             </div>
-            <!-- main-menu__slider  -->
-            <ul class="slide-menu">
-                <!-- main-menu__slide-gradient  -->
-                <div class="slide-menu__gradient"></div>
-                <!-- main-menu__slide-btn  -->
-                <li class="slide-menu__button"><a>Ремонтируемые устройства</a></li>
-                <!-- main-menu__slide-btn--active  -->
-                <li class="slide-menu__button slide-menu__button-visibility"><a>Дополнительные услуги</a></li>
-                <li class="slide-menu__button"><a>Цены на услуги</a></li>
-                <li class="slide-menu__button"><a>Специальные цены</a></li>
-                <li class="slide-menu__button"><a>Ремонтируемые бренды</a></li>
-                <li class="slide-menu__button"><a>Адреса сервисных центров</a></li>
-                <li class="slide-menu__button"><a>Отзывы</a></li>
+            <ul class="main-menu__slider">
+                <div class="main-menu__slide-gradient"></div>
+                <li class="main-menu__btn"><a>Ремонтируемые устройства</a></li>
+                <li class="main-menu__btn main-menu__btn--hidden"><a>Ремонтируемые бренды</a></li>
+                <li class="main-menu__btn"><a>Дополнительные услуги</a></li>
+                <li class="main-menu__btn"><a>Цены на услуги</a></li>
+                <li class="main-menu__btn"><a>Специальные цены</a></li>
+                <li class="main-menu__btn "><a>Адреса сервисных центров</a></li>
+                <li class="main-menu__btn"><a>Отзывы</a></li>
             </ul>
         </menu>
 

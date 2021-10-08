@@ -3,3 +3,15 @@
   font-family: 'TT Lakes';
   color: #1B1C21;
 }
+
+.wrapper .main {
+  background: #F8F8F8;
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    padding-left: 320px;
+    margin: 0 auto;
+    max-width: 1120px;
+  }
+}

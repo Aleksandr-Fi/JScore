@@ -1,1 +1,14 @@
-/* No CSS */
+.overlay {
+  display: none;
+}
+
+.overlay .overlay--visibility--on {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  -webkit-filter: opacity(0.95);
+          filter: opacity(0.95);
+  position: absolute;
+  z-index: 2;
+  background: white;
+}

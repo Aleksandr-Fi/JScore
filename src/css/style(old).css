@@ -60,9 +60,9 @@
     justify-content: space-between;
 }
 
-/* .add-icons {
+.add-icons {
     display: none;
-} */
+}
 
 .add-icons__call {
     background-image: url('../img/icons/icon-call.svg');

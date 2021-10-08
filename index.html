@@ -5,10 +5,10 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="src/scss/normalize.css">
-    <!-- <link rel="stylesheet" href="src/scss/style.css">
-    <link rel="stylesheet" href="src/scss/style-1-4.css">
-    <link rel="stylesheet" href="src/scss/style-1-5.css"> -->
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/style(old).css">
+    <link rel="stylesheet" href="./src/css/style-1-4(old).css">
+    <link rel="stylesheet" href="./src/css/style-1-5(old).css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <title>CSP design for practice</title>
 </head>
@@ -52,40 +52,60 @@
         <!-- </div> -->
     </section>
 
-    <section class="feedback-popup">
+    <section class="panel-feedback">
         
     </section>
 
     <section class="panel-call"></section>
 
     <header class="header">
+        <!-- удалить ненужный див  -->
         <div class="head-menu">
+            <!-- удалить ненужный див -->
             <div class="head-menu__burger-logo">
+                <!-- хедер__бургер -->
                 <button class="icon__btn head-menu__burger"></button>
+                <!-- лого хедер__лого -->
                 <button class="head-menu__logo"></button>
             </div>
+            <!-- soical-icons -->
             <div class="add-icons">
+                <!-- перименовать в icon-btn -->
+                <!-- soical-icons__call  -->
                 <button class="icon__btn add-icons__call"></button>
+                <!-- soical-icons__chat  -->
                 <button class="icon__btn add-icons__chat"></button>
+                <!-- soical-icons__profile  -->
                 <button class="icon__btn add-icons__profile"></button>
             </div>
+            <!-- technical-icons -->
             <div class="set-icons">
+                <!-- technical-icons__repair -->
                 <button class="icon__btn set-icons__repair"></button>
-                <button class="icon__btn set-icons__checkstatus"></button>
+                <!-- technical-icons__checkstatus -->
+                <button class="icon__btn set-icons__"></button>
             </div>
         </div>
     </header>
 
     <main class="main">
-        <section class="menu">
-            <h1 class="menu__title">Услуги и сервисы</h1>
+
+        <menu class="main-menu">
+            <h1 class="main-menu__title">Услуги и сервисы</h1>
+            <!-- technical-icons technical-icons--hidden и название элемента main-menu__btn -->
             <div class="set-icons add-btn">
+                <!-- main-menu__repair -->
                 <button class="icon__btn set-icons__repair add-btn__repair"></button>
+                <!-- main-menu__checkstatus -->
                 <button class="icon__btn set-icons__checkstatus add-btn__checkstatus"></button>
             </div>
+            <!-- main-menu__slider  -->
             <ul class="slide-menu">
+                <!-- main-menu__slide-gradient  -->
                 <div class="slide-menu__gradient"></div>
+                <!-- main-menu__slide-btn  -->
                 <li class="slide-menu__button"><a>Ремонтируемые устройства</a></li>
+                <!-- main-menu__slide-btn--active  -->
                 <li class="slide-menu__button slide-menu__button-visibility"><a>Дополнительные услуги</a></li>
                 <li class="slide-menu__button"><a>Цены на услуги</a></li>
                 <li class="slide-menu__button"><a>Специальные цены</a></li>
@@ -93,7 +113,7 @@
                 <li class="slide-menu__button"><a>Адреса сервисных центров</a></li>
                 <li class="slide-menu__button"><a>Отзывы</a></li>
             </ul>
-        </section>
+        </menu>
 
         <section class="content">
             <div class="content__description">
@@ -197,7 +217,13 @@
             <button class="btn-more brands__btn-more">Показать все</button>
 
         </section>
+
+        <section class="tech"></section>
+
+        <section class="price"></section>
     </main>
+
+    <footer class="footer"></footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>

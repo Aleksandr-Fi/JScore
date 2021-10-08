@@ -1,0 +1,28 @@
+.icon__btn {
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #FF3E79;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.icon__btn .icon__btn:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
+.header {
+  border-bottom: 1px solid #D9FFF5;
+  min-height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

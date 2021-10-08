@@ -1,4 +1,4 @@
-@import url(../assets/fonts/TTLakes/stylesheet.css);
+@import url(../fonts/TTLakes/stylesheet.css);
 
 $general-color: #1B1C21;
 $block-border-color: #D9FFF5;
@@ -10,5 +10,6 @@ $text-ind-color: #41F6D7;
 $active-btn-color: #90f8e7;
 
 .wrapper {
-
+    font-family: 'TT Lakes';
+    color: #1B1C21;
 }

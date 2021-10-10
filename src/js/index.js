@@ -1,7 +1,11 @@
 
 document.addEventListener("DOMContentLoaded", Swiper);
+var allSliders = document.querySelectorAll('.swiper')
 
-const swiper = new Swiper('.swiper', {
+allSliders.forEach(function(oneSlider) {
+
+    var swiper = new Swiper(oneSlider, {
+// const swiper = new Swiper('.swiper', {
 
     pagination: {
         el: '.swiper-pagination',
@@ -10,10 +14,14 @@ const swiper = new Swiper('.swiper', {
 
     slidesPerView: 'auto',
 });
+});
 
 const winWidth = window.matchMedia('(min-width: 768px)');
 
 dest();
+let swipers = document.querySelectorAll('.swiper');
+let wrappers = document.querySelectorAll('.swiper-wrapper');
+let slides = document.querySelectorAll('.swiper-slide');
 
 function dest() {
     if (winWidth.matches) {
@@ -21,7 +29,14 @@ function dest() {
         document.querySelector('.swiper').classList.remove('swiper');
         document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');
 
-        let slides = document.querySelectorAll('.swiper-slide');
+        // let swipers = document.querySelectorAll('.swiper');
+        // for (let i = 0; i < swipers.length; i++) {
+        //     swipers[i].destroy();
+        //     swipers[i].classList.remove('swiper')
+        // };
+        // for (let i = 0; i < wrappers.length; i++) {
+        //     wrappers[i].classList.remove('swiper-slide')
+        // };
         for (let i = 0; i < slides.length; i++) {
             slides[i].classList.remove('swiper-slide')
         };

@@ -99,28 +99,6 @@
           transform: rotate(0.5turn);
 }
 
-.btn-ar {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 2px solid #FF3E79;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: inherit;
-  background-image: url(../img/icons/arrow-right.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.btn-ar .btn-ar:active {
-  height: 41px;
-  width: 41px;
-}
-
-.btn-ar .btn-ar:hover {
-  background-size: 32%;
-}
-
 .wrapper {
   font-family: 'TT Lakes';
   color: #1B1C21;

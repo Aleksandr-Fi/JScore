@@ -33,4 +33,9 @@
   .brands .brands__inner {
     padding-bottom: 34px;
   }
+  .brands .brands__btn-more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }

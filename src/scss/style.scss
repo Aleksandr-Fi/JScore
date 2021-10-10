@@ -1,11 +1,19 @@
 @import url(../fonts/TTLakes/stylesheet.css);
 
 @import "var";
+@import "icon-btn";
+@import "soical-icons";
+@import "tech-icons";
+@import "btn-more";
+// @import "btn-ar";
+// @import "panel-header";
+// @import "panel-menu";
+// @import "panel-contact";
+// @import "lang-select";
 
 .wrapper {
     font-family: 'TT Lakes';
     color: $text-color;
-
 
     .main {
         background: $main-backgound-color;

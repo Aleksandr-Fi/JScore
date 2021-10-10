@@ -6,14 +6,13 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./src/css/normalize.css">
-    <!-- <link rel="stylesheet" href="./src/css/style(old).css"> -->
-    <link rel="stylesheet" href="./src/css/style-1-4(old).css">
-    <link rel="stylesheet" href="./src/css/style-1-5(old).css">
-
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/header.css">
     <link rel="stylesheet" href="./src/css/main-menu.css">
     <link rel="stylesheet" href="./src/css/content.css">
+    <link rel="stylesheet" href="./src/css/brands.css">
+    <link rel="stylesheet" href="./src/css/swiper-brands.css">
+    <link rel="stylesheet" href="./src/css/aside-panel.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <title>CSP design for practice</title>
@@ -31,7 +30,7 @@
             </div>
             <div class="panel-menu">
                 <ul class="panel-menu__list">
-                    <li class="panel-menu__btn"><a class="panel-menu__a panel-menu__a--active" href="">Ремонт техники</a></li>
+                    <li class="panel-menu__btn"><a class="panel-menu__a panel-menu__a--selected" href="">Ремонт техники</a></li>
                     <li class="panel-menu__btn"><a class="panel-menu__a" href="">Услуги и сервисы</a></li>
                     <li class="panel-menu__btn"><a class="panel-menu__a" href="">Корпоративным клиентам</a></li>
                     <li class="panel-menu__btn"><a class="panel-menu__a" href="">Продавцам техники</a></li>
@@ -50,9 +49,9 @@
                 <p class="panel-contact__mail">mail@cps.com</p>
                 <p class="panel-contact__number-phone">8 800 890 8900</p>
                 <div class="lang-select">
-                    <batton class="lang-select__btn lang-ru lang-select__btn--active">RU</batton>
-                    <batton class="lang-select__btn lang-en">EN</batton>
-                    <batton class="lang-select__btn lang-ch">CH</batton>
+                    <button class="lang-select__btn lang-ru lang-select__btn--active">RU</button>
+                    <button class="lang-select__btn lang-en">EN</button>
+                    <button class="lang-select__btn lang-ch">CH</button>
                 </div>
             </div>
         <!-- </div> -->
@@ -111,6 +110,17 @@
                     Мы успешно работаем с 1992 года и заслужили
                     репутацию надежного партнера что подтверждает большое количество постоянных клиентов.
                     Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                    в свою очередь, советуют нас родным и близким.<br>
+                    <br>
+                    Мы являемся авторизованным
+                    сервисным центром по ремонту техники
+                    Dell. Только у нас вы можете
+                    отремонтировать свой ноутбук Dell
+                    с официальной гарантией производителя.<br>
+                    <br>
+                    Мы успешно работаем с 1992 года и заслужили
+                    репутацию надежного партнера что подтверждает большое количество постоянных клиентов.
+                    Мы гордимся тем, что к нам обращаются по рекомендациям и,
                     в свою очередь, советуют нас родным и близким.
                 </p>
                 <button class="btn-more content__btn-more">Читать далее</button>
@@ -122,84 +132,86 @@
 
         <!-- block_1.5 -->
         <section class="brands">
-            <h1 class="brands__title">Ремонт техники различных брендов</h1>
-            <menu class="swiper swiper-brands">
+            <div class="brands__inner">
+                <h1 class="brands__title">Ремонт техники различных брендов</h1>
+                <menu class="swiper swiper-brands">
 
-                <div class="swiper-brands__gradient"></div>
+                    <div class="swiper-brands__gradient"></div>
 
-                <ul class="swiper-wrapper swiper-brands__wrapper">
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Lenovo.png" alt="Lenovo" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Samsung.png" alt="Samsung" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Aple.png" alt="Aple" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/ViewSonic.png" alt="ViewSonic" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Bosch.png" alt="Bosch" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/hp.png" alt="hp" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/acer.png" alt="acer" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/sony.png" alt="sony" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Lenovo.png" alt="Lenovo" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Samsung.png" alt="Samsung" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                    <li class="swiper-slide swiper-brands__slide">
-                        <button class="swiper-brands__block">
-                            <img src="./src/img/images/Aple.png" alt="Aple" class="swiper__img">
-                            <a class="swiper__btn btn-ar"></a>
-                        </button>
-                    </li>
-                </ul>
+                    <ul class="swiper-wrapper swiper-brands__wrapper">
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Lenovo.png" alt="Lenovo" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Samsung.png" alt="Samsung" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Aple.png" alt="Aple" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/ViewSonic.png" alt="ViewSonic" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Bosch.png" alt="Bosch" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/hp.png" alt="hp" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/acer.png" alt="acer" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/sony.png" alt="sony" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Lenovo.png" alt="Lenovo" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Samsung.png" alt="Samsung" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                        <li class="swiper-slide swiper-brands__slide">
+                            <button class="swiper-brands__block">
+                                <img src="./src/img/images/Aple.png" alt="Aple" class="swiper__img">
+                                <a class="swiper__btn btn-ar"></a>
+                            </button>
+                        </li>
+                    </ul>
 
-                <div class="swiper-pagination swiper-brands__pagination"></div>
-            </menu>
+                    <div class="swiper-pagination swiper-brands__pagination"></div>
+                </menu>
 
-            <button class="btn-more brands__btn-more">Показать все</button>
+                <button class="btn-more brands__btn-more">Показать все</button>
+            </div>
 
         </section>
 
@@ -211,7 +223,7 @@
     <footer class="footer"></footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./src/js/index.js"></script>
 
 </body>
 </html>

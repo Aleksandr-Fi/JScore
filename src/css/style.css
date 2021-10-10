@@ -1,4 +1,126 @@
 @import url(../fonts/TTLakes/stylesheet.css);
+.icon-btn {
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #FF3E79;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.icon-btn .icon-btn:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
+.soical-icons {
+  width: 152px;
+  height: 40px;
+  position: relative;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.soical-icons .soical-icons__call {
+  background-image: url("../img/icons/icon-call.svg");
+}
+
+.soical-icons .soical-icons__chat {
+  background-image: url("../img/icons/icon-chat.svg");
+}
+
+.soical-icons .soical-icons__profile {
+  background-image: url("../img/icons/Group-profile.svg");
+}
+
+.tech-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.tech-icons .tech-icons__repair {
+  background-image: url("../img/icons/Group-repair.svg");
+}
+
+.tech-icons .tech-icons__checkstatus {
+  margin-left: 16px;
+  background-image: url("../img/icons/icon-checkstatus.svg");
+}
+
+.btn-more {
+  height: 24px;
+  padding: 0;
+  padding-left: 8px;
+  border: none;
+  background-color: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-more:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
+}
+
+.btn-more::before {
+  content: "";
+  background-image: url("../img/icons/arrow.png");
+  width: 8px;
+  height: 11px;
+}
+
+.btn-more--active::before {
+  -webkit-transform: rotate(0.5turn);
+          transform: rotate(0.5turn);
+}
+
+.btn-ar {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #FF3E79;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: inherit;
+  background-image: url(../img/icons/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.btn-ar .btn-ar:active {
+  height: 41px;
+  width: 41px;
+}
+
+.btn-ar .btn-ar:hover {
+  background-size: 32%;
+}
+
 .wrapper {
   font-family: 'TT Lakes';
   color: #1B1C21;

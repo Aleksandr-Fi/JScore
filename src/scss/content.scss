@@ -1,9 +1,7 @@
-@import "btn-more";
-
 .content {
     display: flex;
-    flex-direction: column;
-    // justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
 
     .content__description {
         margin: 0 16px;
@@ -28,21 +26,19 @@
     }
 
     @media (min-width: 768px) {
-        margin-left: 24px;
-        min-width: 720px;
-        flex-wrap: wrap;
+        display: flex;
+        flex-wrap: nowrap;
         column-gap: 48px;
+        padding-bottom: 32px;
 
         .content__description {
-        margin: 0;
-        width: 312px;
-        line-height: 20px;
-        letter-spacing: 0.2px;
+            margin-left: 24px;
+            margin-bottom: 0;
+            flex-grow: 1;
         }
     
         .content__text {
             width: auto;
-            flex-grow: 1;
         }
 
         .content__text--hidden {
@@ -51,20 +47,27 @@
         }
 
         .content__image {
-            // width: 360px;
-            // height: 100%;
-            // position: relative;
-            // right: 0;
-            // border-radius: 6px;
-            
             position: static;
             padding: 0;
+            flex-grow: 1;
             flex-shrink: 0;
             border-radius: 6px;
             width: 360px;
             height: 100%;
             padding-right: 24px;
         }
-        
+    }
+
+    @media (min-width: 1440px) {
+        padding-top: 30px;
+        padding-bottom: 51px;
+
+        .content__description {
+            padding-top: 10px;
+        }
+
+        .content__image {
+            width: 532px;
+        }
     }
 }

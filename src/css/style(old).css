@@ -264,7 +264,7 @@
         margin-bottom: 22px;
     } */
 
-    .content {        
+    /* .content {        
         margin-left: 24px;
         min-width: 720px;
         max-height: 208px;
@@ -288,9 +288,9 @@
         width: 360px;
         height: 208px;
         border-radius: 6px;
-    }
+    } */
 
-    }
+    /* } */
 
     @media (min-width: 1120px) {
 
@@ -299,10 +299,10 @@
         }
 
         .menu {
-            padding-top: 30px;
+            /* padding-top: 30px;
             flex-direction: row;
             justify-content: space-between;
-            flex-wrap: wrap;
+            flex-wrap: wrap; */
         }
 
         .add-btn {
@@ -390,9 +390,9 @@
             margin-top: 5px;
         }
 
-        .content__image {
+        /* .content__image {
             width: 532px; 
             height: 307px;
-        }
+        } */
 
     }

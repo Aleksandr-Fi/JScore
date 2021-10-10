@@ -1,0 +1,98 @@
+@import "var";
+@import "btn-ar";
+
+.swiper-brands {
+    min-height: 154px;
+    margin: 0;
+    padding: 16px;
+
+    .swiper-brands__gradient {
+        position: absolute;
+        top: 16px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .swiper-brands__gradient::before {
+        content: "";
+        background: url("../img/images/fade-swiper.png") no-repeat;
+        position: relative;
+        right: 0;
+        display: block;
+        height: 72px;
+        width: 24px;
+    }
+
+    .swiper-brands__wrapper li.swiper-brands__slide {
+        width: auto;
+    }
+
+    .swiper-brands__block {
+        box-sizing: border-box;
+        width: 240px;
+        height: 72px;
+        padding: 0 16px;
+        margin: 16px;
+        margin-left: 0;
+
+        border: 1px solid $btn-border-color;
+        border-radius: 6px;
+        background-color: $main-backgound-color;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
+
+    .swiper-brands__pagination {
+        top: 70%;
+    }
+
+    .swiper-brands__pagination .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background: $pagination-color;
+    }
+
+    @media (min-width: 768px) {
+        height: auto;
+        padding: 24px 0;
+    
+        .swiper-brands__gradient {
+            display: none;
+        }
+    
+        .swiper-brands__wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+            column-gap: 24px;
+            row-gap: 16px;
+            overflow-y: hidden;
+            height: 160px;
+        }
+    
+        .swiper-brands__wrapper--open {
+            height: auto;
+        }
+    
+        .swiper-brands__slide {
+            width: 224px;
+        }
+    
+        .swiper-brands__block {
+            width: 224px;
+            margin: 0;
+        }
+    }
+
+    @media (min-width: 1440px) {
+
+        .swiper-brands__wrapper {
+            column-gap: 32px;
+        }
+    
+        .swiper-brands__block {
+            width: 240px;
+        }    
+    }
+}

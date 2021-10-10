@@ -1,0 +1,20 @@
+.btn-ar {
+    box-sizing: border-box;
+    border: 2px solid $btn-bg-color;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: inherit;
+    background-image: url(../img/icons/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    .btn-ar:active {
+        height: 41px;
+        width: 41px;
+    }
+
+    .btn-ar:hover {
+        background-size: 32%;
+    }
+}

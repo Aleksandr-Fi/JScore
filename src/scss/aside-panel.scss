@@ -1,0 +1,29 @@
+@import "var";
+@import "panel-header";
+@import "panel-menu";
+@import "panel-contact";
+@import "lang-select";
+
+.aside-panel {
+    max-width: 320px;
+    height: 100%;
+    font-weight: 600;
+    background: $light-backgound-color;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    z-index: 3;
+
+    
+    &--layuot--left {
+        position: fixed;
+        left: 0;
+        transform: translateX(-100%);
+        box-shadow: 0 0 0 transparent;
+        transition: 1s;
+    }
+
+    &--open {
+        transform: translateX(0px);
+    }
+}

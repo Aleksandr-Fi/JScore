@@ -1,9 +1,7 @@
-@import "var";
-
-.brands {
+.price {
     border-top: 1px solid $block-border-color;
 
-    .brands__inner {
+    &__inner {
     box-sizing: border-box;
     width: 95%;
     padding: 0;
@@ -11,7 +9,7 @@
     margin-left: auto;
     }
 
-    .brands__title {
+    &__title {
         box-sizing: border-box;
         height: auto;
         text-transform: uppercase;
@@ -24,18 +22,10 @@
         background: linear-gradient(to right, $main-backgound-color 0%, $light-backgound-color 98%);
     }
 
-    .brands__btn-more {
-        display: none;
-    }
-
     @media (min-width: 768px) {
 
-        .brands__inner {
+        &__inner {
             padding-bottom: 34px;
-        }
-
-        .brands__btn-more {
-            display: flex;
         }
     }
 }

@@ -1,27 +1,40 @@
 @import url(../fonts/TTLakes/stylesheet.css);
 
 @import "var";
+@import "wrapper";
+@import "overlay";
+
 @import "icon-btn";
 @import "soical-icons";
 @import "tech-icons";
 @import "btn-more";
-// @import "btn-ar";
-// @import "panel-header";
-// @import "panel-menu";
-// @import "panel-contact";
-// @import "lang-select";
+@import "btn-ar";
+@import "order-btn";
 
-.wrapper {
-    font-family: 'TT Lakes';
-    color: $text-color;
+@import "aside-panel";
+@import "panel-header";
+@import "panel-menu";
+@import "panel-contact";
+@import "lang-select";
 
-    .main {
-        background: $main-backgound-color;
-    }
+@import "panel-call";
 
-    @media (min-width: 1440px) {
-        padding-left: 320px;
-        margin: 0 auto;
-        max-width: 1120px;
-    }
-}
+@import "panel-feedback";
+
+@import "header";
+
+@import "main";
+@import "main-menu";
+
+@import "content";
+
+@import "brands";
+@import "swiper-brands";
+
+@import "tech";
+@import "swiper-tech";
+
+@import "price";
+@import "swiper-price";
+
+@import "footer";

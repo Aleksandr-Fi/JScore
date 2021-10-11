@@ -1,0 +1,31 @@
+.order-btn {
+    box-sizing: border-box;
+    border: 2px solid $btn-bg-color;
+    height: 32px;
+    width: 119px;
+    border-radius: 16px;
+    background-color: $btn-bg-color;
+    background-image: url(../img/icons/white-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+
+    &__text {
+        display: block;
+        width: 67px;
+        position: relative;
+        left: 5px;
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    .order-btn:active {
+        height: 33px;
+        width: 120px;
+    }
+
+    .order-btn:hover {
+        background-size: 32%;
+    }
+}

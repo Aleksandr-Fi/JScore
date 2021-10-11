@@ -1,21 +1,18 @@
-@import "var";
-@import "btn-ar";
-
-.swiper-tech {
+.swiper-brands {
     min-height: 154px;
     margin: 0;
     padding: 16px;
 
-    &__gradient {
+    .swiper-brands__gradient {
         position: absolute;
         top: 16px;
         right: 0;
         z-index: 2;
     }
 
-    &__gradient::before {
+    .swiper-brands__gradient::before {
         content: "";
-        background: url("../img/images/fade-tech.png") no-repeat;
+        background: url("../img/images/fade-swiper.png") no-repeat;
         position: relative;
         right: 0;
         display: block;
@@ -23,16 +20,15 @@
         width: 24px;
     }
 
-    &__wrapper li.swiper-tech__slide {
+    .swiper-brands__wrapper li.swiper-brands__slide {
         width: auto;
-        margin-bottom: 36px;
     }
 
-    &__block {
+    .swiper-brands__block {
         box-sizing: border-box;
         width: 240px;
-        height: 160px;
-        padding: 16px;
+        height: 72px;
+        padding: 0 16px;
         margin: 16px;
         margin-left: 0;
 
@@ -42,22 +38,14 @@
 
         display: flex;
         justify-content: space-between;
-        flex-wrap: nowrap;
+        align-items: center;
+    }    
+
+    .swiper-brands__pagination {
+        top: 70%;
     }
 
-    &__text {
-        display: block;
-    }
-
-    &__btn {
-        align-self: flex-end;
-    }
-
-    &__pagination {
-        top: 85%;
-    }
-
-    &__pagination .swiper-pagination-bullet {
+    .swiper-brands__pagination .swiper-pagination-bullet {
         width: 12px;
         height: 12px;
         background: $pagination-color;
@@ -67,11 +55,11 @@
         height: auto;
         padding: 24px 0;
     
-        &__gradient {
+        .swiper-brands__gradient {
             display: none;
         }
     
-        &__wrapper {
+        .swiper-brands__wrapper {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
             column-gap: 24px;
@@ -81,15 +69,15 @@
             padding: 16px 0;
         }
     
-        &__wrapper--open {
+        .swiper-brands__wrapper--open {
             height: auto;
         }
     
-        &__slide {
+        .swiper-brands__slide {
             width: 224px;
         }
     
-        &__block {
+        .swiper-brands__block {
             width: 224px;
             margin: 0;
         }
@@ -97,11 +85,11 @@
 
     @media (min-width: 1440px) {
 
-        &__wrapper {
+        .swiper-brands__wrapper {
             column-gap: 32px;
         }
     
-        &__block {
+        .swiper-brands__block {
             width: 240px;
         }    
     }

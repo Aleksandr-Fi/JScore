@@ -39,10 +39,11 @@ function dest() {
 };
 
 let btnMoreContent = document.querySelector('.content__btn-more');
-// let contentText = document.querySelector(".swiper-brands__wrapper");
+let contentText = document.querySelector(".content__text");
 btnMoreContent.addEventListener('click', function() {
     btnMoreContent.classList.toggle('btn-more--active');
     btnMoreContent.innerHTML = (btnMoreContent.innerHTML === 'Скрыть') ? btnMoreContent.innerHTML = 'Читать далее' : btnMoreContent.innerHTML = 'Скрыть';
+    contentText.classList.toggle('content__text--hidden');
 });
 
 // открытие брендов

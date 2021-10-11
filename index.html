@@ -358,16 +358,82 @@
 
                     <div class="swiper-pagination swiper-price__pagination"></div>
                 </menu>
-                <p class="price__note">Все цены указаны с учетом НДС. 
-                    Стоимость ремонта указана на единичную услугу. 
-                    Для получения коммерческого предложения на постоянное 
+                <table class="price-table">
+                    <tr class="price-table__header">
+                        <th class="price-table__cell-heder">Ремонтные услуги</th>
+                        <th class="price-table__cell-heder">Цена</th>
+                        <th class="price-table__cell-heder">Срок</th>
+                    </tr>
+                    <tr class="price-table__row">
+                        <td class="price-table__cell">Диагностика</td>
+                        <td class="price-table__cell">Бесплатно</td>
+                        <td class="price-table__cell">30 мин</td>
+                        <td class="price-table__cell">
+                            <button class="price-table__btn order-btn">
+                                <p class="order-btn__text">ЗАКАЗАТЬ</p>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="price-table__row">
+                        <td class="price-table__cell">Замена дисплея</td>
+                        <td class="price-table__cell">1 000 ₽</td>
+                        <td class="price-table__cell">30-120 мин</td>
+                        <td class="price-table__cell">
+                            <button class="price-table__btn order-btn">
+                                <p class="order-btn__text">ЗАКАЗАТЬ</p>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="price-table__row">
+                        <td class="price-table__cell">Замена полифонического динамика</td>
+                        <td class="price-table__cell">1 000 ₽</td>
+                        <td class="price-table__cell">30-120 мин</td>
+                        <td class="price-table__cell">
+                            <button class="price-table__btn order-btn">
+                                <p class="order-btn__text">ЗАКАЗАТЬ</p>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="price-table__row">
+                        <td class="price-table__cell">Тестирование с выдачей технического заключения</td>
+                        <td class="price-table__cell">1 000 ₽</td>
+                        <td class="price-table__cell">30-120 мин</td>
+                        <td class="price-table__cell">
+                            <button class="price-table__btn order-btn">
+                                <p class="order-btn__text">ЗАКАЗАТЬ</p>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="price-table__row">
+                        <td class="price-table__cell">Замена программного обеспечения</td>
+                        <td class="price-table__cell">1 000 ₽</td>
+                        <td class="price-table__cell">30-120 мин</td>
+                        <td class="price-table__cell">
+                            <button class="price-table__btn order-btn">
+                                <p class="order-btn__text">ЗАКАЗАТЬ</p>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+
+                <p class="price__note">Все цены указаны с учетом НДС.
+                    Стоимость ремонта указана на единичную услугу.
+                    Для получения коммерческого предложения на постоянное
                     обслуживание, оставьте заявку.</p>
                 <a href="" class="price__offer">Получить коммерческое предложение</a>
             </div>
         </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <a href="" class="footer__info-design">© 2019 CPS<br>
+            Разработано командой Apesong </a>
+        <a href="" class="footer__confidencial">Политика конфиденциальности</a>
+        <a href="" class="footer__info-publish">
+            Информация, размещенная на данной странице, 
+            не является публичной офертой
+        </a>
+    </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./src/js/index.js"></script>

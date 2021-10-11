@@ -381,11 +381,20 @@
   background-image: url(../img/icons/icon-close.svg);
   margin-top: 24px;
   margin-left: 16px;
-  margin-bottom: 40px;
+}
+
+@media (min-width: 1440px) {
+  .panel-call__close {
+    margin-top: 25px;
+    position: fixed;
+    -webkit-transform: translate(-72px, 10px);
+            transform: translate(-72px, 10px);
+  }
 }
 
 .panel-call__inner {
   margin-left: 16px;
+  margin-top: 40px;
 }
 
 .panel-call__title {

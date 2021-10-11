@@ -26,11 +26,17 @@
         background-image: url(../img/icons/icon-close.svg);
         margin-top: 24px;
         margin-left: 16px;
-        margin-bottom: 40px;
+
+        @media (min-width: 1440px) {
+            margin-top: 25px;
+            position: fixed;
+            transform: translate(-72px, 10px);
+        }
     }
 
     &__inner {
         margin-left: 16px;
+        margin-top: 40px;
     }
 
     &__title {

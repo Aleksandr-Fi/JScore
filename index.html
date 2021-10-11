@@ -35,8 +35,8 @@
             </div>
             <div class="panel-contact">
                 <div class="soical-icons">
-                    <button class="icon-btn soical-icons__call"></button>
-                    <button class="icon-btn soical-icons__chat"></button>
+                    <button class="icon-btn soical-icons__call call"></button>
+                    <button class="icon-btn soical-icons__chat chat"></button>
                     <button class="icon-btn soical-icons__profile"></button>
                 </div>
                 <p class="panel-contact__mail">mail@cps.com</p>
@@ -50,14 +50,37 @@
         <!-- </div> -->
     </section>
 
-    <section class="panel-feedback">
-        
+    <section class="panel-feedback panel-feedback--layuot--right">
+        <div class="panel-feedback__inner">
+            <button class="panel-feedback__close icon-btn"></button>
+            <h1 class="panel-feedback__title">Заказать звонок</h1>
+            <form action="#" class="panel-feedback__form">
+
+                <input type="text" class="panel-feedback__field panel-feedback__name" name="name" id="name" placeholder="Имя">
+
+                <input type="tel" class="panel-feedback__field panel-feedback__phone" id="phone" name="phone" placeholder="Телефон" 
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                <input type="email" class="panel-feedback__field panel-feedback__email" name="email" id="" placeholder="Электронная почта">
+
+                <input type="text" class="panel-feedback__field panel-feedback__text" name="text" id="" placeholder="Сообщение">
+
+                <p class="panel-feedback__warn">
+                    Нажимая “отправить”, вы даете согласие на 
+                    <a href="" class="panel-feedback__warn-link">обработку персональных данных</a> 
+                    и соглашаетесь с нашей <a href="" class="panel-feedback__warn-link">политикой 
+                    конфиденциальности</a>
+                </p>
+                <button class="panel-feedback__btn order-btn" type="submit">
+                    <p class="order-btn__text">ОТПРАВИТЬ</p>
+                </button>
+            </form>
+        </div>
     </section>
 
     <section class="panel-call panel-call--layuot--right">
-        <button class="panel-call__close icon-btn"></button>
-
         <div class="panel-call__inner">
+            <button class="panel-call__close icon-btn"></button>
             <h1 class="panel-call__title">Заказать звонок</h1>
             <form action="#" class="panel-call__form">
 
@@ -82,8 +105,8 @@
         <button class="icon-btn header__burger"></button>
         <img class="header__logo" src="src/img/icons/logo.svg">
         <div class="soical-icons header__soical-icons">
-            <button class="icon-btn soical-icons__call"></button>
-            <button class="icon-btn soical-icons__chat"></button>
+            <button class="icon-btn soical-icons__call header-call"></button>
+            <button class="icon-btn soical-icons__chat header-chat"></button>
             <button class="icon-btn soical-icons__profile"></button>
         </div>
         <div class="tech-icons">

@@ -11,7 +11,7 @@
     &--layuot--right {
         position: fixed;
         right: 0;
-        // transform: translateX(100%);
+        transform: translateX(100%);
         box-shadow: 0 0 0 transparent;
         transition: 1s;
     }
@@ -22,24 +22,24 @@
         -16px 0px 52px rgba(14, 24, 80, .2);
     }
 
+    &__inner {
+        margin-left: 16px;
+    }
+
     &__close {
         background-image: url(../img/icons/icon-close.svg);
-        margin-top: 24px;
-        margin-left: 16px;
+        margin-top: 25px;
 
         @media (min-width: 1440px) {
-            margin-top: 25px;
             position: fixed;
-            transform: translate(-72px, 10px);
+            transform: translate(-42px, 10px);
+            overflow: visible;
+            z-index: 5;
         }
     }
 
-    &__inner {
-        margin-left: 16px;
-        margin-top: 40px;
-    }
-
     &__title {
+        margin-top: 40px;
         margin-bottom: 24px;
         &::before {
             content: "";

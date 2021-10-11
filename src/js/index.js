@@ -81,3 +81,13 @@ btnAsideClose.addEventListener('click', function() {
     asidePanel.classList.toggle('aside-panel--open')
     overlay.classList.toggle('overlay--visibility--on')
 });
+
+let btnCall = document.querySelector('.call');
+let hederCall = document.querySelector('.header-call');
+let panelCall = document.querySelector('.panel-call')
+
+btnCall.addEventListener('click', function() {
+    console.log('click')
+    panelCall.classList.toggle('panel-call--open')
+    overlay.classList.toggle('overlay--visibility--on')
+});

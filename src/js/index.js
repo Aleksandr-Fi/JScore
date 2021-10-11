@@ -18,8 +18,17 @@ function dest() {
     if (winWidth.matches) {
         swiper.destroy();
         document.querySelector('.swiper').classList.remove('swiper');
-        document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');
+        // document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');
 
+        // let swipers = document.querySelectorAll('.swiper');
+        // console.log(swipers);
+        // for (let i = 0; i < swipers.length; i++) {
+        //     swipers[i].classList.remove('swiper-wrapper')
+        // };
+        let wrappers = document.querySelectorAll('.swiper-wrapper');
+        for (let i = 0; i < wrappers.length; i++) {
+            wrappers[i].classList.remove('swiper-wrapper')
+        };
         let slides = document.querySelectorAll('.swiper-slide');
         for (let i = 0; i < slides.length; i++) {
             slides[i].classList.remove('swiper-slide')
@@ -30,11 +39,13 @@ function dest() {
 };
 
 let btnMoreContent = document.querySelector('.content__btn-more');
+// let contentText = document.querySelector(".swiper-brands__wrapper");
 btnMoreContent.addEventListener('click', function() {
     btnMoreContent.classList.toggle('btn-more--active');
     btnMoreContent.innerHTML = (btnMoreContent.innerHTML === 'Скрыть') ? btnMoreContent.innerHTML = 'Читать далее' : btnMoreContent.innerHTML = 'Скрыть';
 });
 
+// открытие брендов
 let btnMoreBrands = document.querySelector('.brands__btn-more');
 let bandsWrapper = document.querySelector(".swiper-brands__wrapper");
 
@@ -42,4 +53,14 @@ btnMoreBrands.addEventListener('click', function() {
     btnMoreBrands.classList.toggle('btn-more--active');
     btnMoreBrands.innerHTML = (btnMoreBrands.innerHTML === 'Скрыть') ? btnMoreBrands.innerHTML = 'Показать все' : btnMoreBrands.innerHTML = 'Скрыть';
     bandsWrapper.classList.toggle('swiper-brands__wrapper--open');
+});
+
+// открытие видов техники
+let btnMoreTech = document.querySelector('.tech__btn-more');
+let techWrapper = document.querySelector(".swiper-tech__wrapper");
+
+btnMoreTech.addEventListener('click', function() {
+    btnMoreTech.classList.toggle('btn-more--active');
+    btnMoreTech.innerHTML = (btnMoreTech.innerHTML === 'Скрыть') ? btnMoreTech.innerHTML = 'Показать все' : btnMoreTech.innerHTML = 'Скрыть';
+    techWrapper.classList.toggle('swiper-tech__wrapper--open');
 });

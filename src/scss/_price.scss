@@ -1,5 +1,6 @@
 .price {
     border-top: 1px solid $block-border-color;
+    padding-bottom: 40px;
 
     &__inner {
     box-sizing: border-box;
@@ -22,10 +23,46 @@
         background: linear-gradient(to right, $main-backgound-color 0%, $light-backgound-color 98%);
     }
 
+    &__note {
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 16px;
+        padding-right: 20px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    &__offer {
+        display: block;
+        cursor: pointer;
+        width: 200px;
+        font-size: 16px;
+        line-height: 24px;
+        color: inherit;
+        font-weight: 600;
+        text-decoration: none;
+
+        background-image: url(../img/icons/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: 60% 85%;
+    }
+
     @media (min-width: 768px) {
 
         &__inner {
             padding-bottom: 34px;
+        }
+
+        &__note {
+            width: 420px;
+            height: 60px;
+        }
+
+        &__offer {
+            width: 320px;
+            height: 24px;
+            background-position: 100% 60%;
         }
     }
 }

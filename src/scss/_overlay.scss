@@ -1,12 +1,12 @@
 .overlay {
     display: none;
 
-    .overlay--visibility--on {
+    &--visibility--on {
         display: block;
         width: 100vw;
         height: 100vh;
         filter: opacity(0.95);
-        position: absolute;
+        position: fixed;
         z-index: 2;
         background: white;        
     }

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", Swiper);
+document.addEventListener("DOMContentLoaded", new Swiper);
 
 const swiper = new Swiper('.swiper', {
 
@@ -64,4 +64,20 @@ btnMoreTech.addEventListener('click', function() {
     btnMoreTech.classList.toggle('btn-more--active');
     btnMoreTech.innerHTML = (btnMoreTech.innerHTML === 'Скрыть') ? btnMoreTech.innerHTML = 'Показать все' : btnMoreTech.innerHTML = 'Скрыть';
     techWrapper.classList.toggle('swiper-tech__wrapper--open');
+});
+
+let btnBurger = document.querySelector('.header__burger');
+let btnAsideClose = document.querySelector('.panel-header__close');
+let asidePanel = document.querySelector('.aside-panel');
+// overlay--visibility--on
+let overlay = document.querySelector('.overlay');
+;
+btnBurger.addEventListener('click', function() {
+    asidePanel.classList.toggle('aside-panel--open')
+    overlay.classList.toggle('overlay--visibility--on')
+});
+
+btnAsideClose.addEventListener('click', function() {
+    asidePanel.classList.toggle('aside-panel--open')
+    overlay.classList.toggle('overlay--visibility--on')
 });

@@ -1,3 +1,5 @@
+import Swiper from 'https://unpkg.com/swiper/swiper-bundle.min.js';
+
 document.addEventListener("DOMContentLoaded", new Swiper);
 
 const swiper = new Swiper('.swiper', {

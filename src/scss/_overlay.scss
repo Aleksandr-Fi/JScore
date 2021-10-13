@@ -1,5 +1,6 @@
 .overlay {
     display: none;
+        transition: 1s; 
 
     &--visibility--on {
         display: block;
@@ -8,6 +9,7 @@
         filter: opacity(0.95);
         position: fixed;
         z-index: 2;
-        background: white;        
+        background: white;
+        transition: 1s; 
     }
 }

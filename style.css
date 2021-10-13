@@ -1741,6 +1741,8 @@
         overflow-y: hidden;
         height: 160px;
         padding: 0; }
+      .swiper-tech__wrapper li.swiper-tech__slide {
+        margin-bottom: 0; }
       .swiper-tech__wrapper--open {
         height: auto; }
       .swiper-tech__slide {

@@ -1,0 +1,1986 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Italic.eot);
+    src: local('TT Lakes Italic'), local('TTLakes-Italic'),
+        url(./fonts/TTLakes-Italic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Italic.woff) format('woff'),
+        url(./fonts/TTLakes-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraLight.eot);
+    src: local('TT Lakes Condensed ExtraLight'), local('TTLakesCondensed-ExtraLight'),
+        url(./fonts/TTLakesCondensed-ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraLight.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Regular.eot);
+    src: local('TT Lakes Compressed Regular'), local('TTLakesCompressed-Regular'),
+        url(./fonts/TTLakesCompressed-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Regular.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ThinItalic.eot);
+    src: local('TT Lakes Compressed Thin Italic'), local('TTLakesCompressed-ThinItalic'),
+        url(./fonts/TTLakesCompressed-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ThinItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Medium.eot);
+    src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
+        url(./fonts/TTLakesCondensed-Medium.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Medium.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraBoldItalic.eot);
+    src: local('TT Lakes Compressed ExtraBold Italic'), local('TTLakesCompressed-ExtraBoldItalic'),
+        url(./fonts/TTLakesCompressed-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraLightItalic.eot);
+    src: local('TT Lakes ExtraLight Italic'), local('TTLakes-ExtraLightItalic'),
+        url(./fonts/TTLakes-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraLightItalic.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-LightItalic.eot);
+    src: local('TT Lakes Light Italic'), local('TTLakes-LightItalic'),
+        url(./fonts/TTLakes-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-LightItalic.woff) format('woff'),
+        url(./fonts/TTLakes-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Thin.eot);
+    src: local('TT Lakes Thin'), local('TTLakes-Thin'),
+        url(./fonts/TTLakes-Thin.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Thin.woff) format('woff'),
+        url(./fonts/TTLakes-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-DemiBoldItalic.eot);
+    src: local('TT Lakes DemiBold Italic'), local('TTLakes-DemiBoldItalic'),
+        url(./fonts/TTLakes-DemiBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-DemiBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakes-DemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Black.eot);
+    src: local('TT Lakes Condensed Black'), local('TTLakesCondensed-Black'),
+        url(./fonts/TTLakesCondensed-Black.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Black.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-LightItalic.eot);
+    src: local('TT Lakes Condensed Light Italic'), local('TTLakesCondensed-LightItalic'),
+        url(./fonts/TTLakesCondensed-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-LightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-DemiBold.eot);
+    src: local('TT Lakes Condensed DemiBold'), local('TTLakesCondensed-DemiBold'),
+        url(./fonts/TTLakesCondensed-DemiBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-DemiBold.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-DemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraBold.eot);
+    src: local('TT Lakes Compressed ExtraBold'), local('TTLakesCompressed-ExtraBold'),
+        url(./fonts/TTLakesCompressed-ExtraBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraBold.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraBoldItalic.eot);
+    src: local('TT Lakes ExtraBold Italic'), local('TTLakes-ExtraBoldItalic'),
+        url(./fonts/TTLakes-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraLight.eot);
+    src: local('TT Lakes ExtraLight'), local('TTLakes-ExtraLight'),
+        url(./fonts/TTLakes-ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraLight.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Bold.eot);
+    src: local('TT Lakes Condensed Bold'), local('TTLakesCondensed-Bold'),
+        url(./fonts/TTLakesCondensed-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Bold.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ThinItalic.eot);
+    src: local('TT Lakes Condensed Thin Italic'), local('TTLakesCondensed-ThinItalic'),
+        url(./fonts/TTLakesCondensed-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ThinItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraBoldItalic.eot);
+    src: local('TT Lakes Condensed ExtraBold Italic'), local('TTLakesCondensed-ExtraBoldItalic'),
+        url(./fonts/TTLakesCondensed-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Medium.eot);
+    src: local('TT Lakes Compressed Medium'), local('TTLakesCompressed-Medium'),
+        url(./fonts/TTLakesCompressed-Medium.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Medium.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Thin.eot);
+    src: local('TT Lakes Condensed Thin'), local('TTLakesCondensed-Thin'),
+        url(./fonts/TTLakesCondensed-Thin.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Thin.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Italic.eot);
+    src: local('TT Lakes Compressed Italic'), local('TTLakesCompressed-Italic'),
+        url(./fonts/TTLakesCompressed-Italic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Italic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Light.eot);
+    src: local('TT Lakes Compressed Light'), local('TTLakesCompressed-Light'),
+        url(./fonts/TTLakesCompressed-Light.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Light.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-LightItalic.eot);
+    src: local('TT Lakes Compressed Light Italic'), local('TTLakesCompressed-LightItalic'),
+        url(./fonts/TTLakesCompressed-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-LightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Regular.eot);
+    src: local('TT Lakes Condensed Regular'), local('TTLakesCondensed-Regular'),
+        url(./fonts/TTLakesCondensed-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Regular.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Light.eot);
+    src: local('TT Lakes Condensed Light'), local('TTLakesCondensed-Light'),
+        url(./fonts/TTLakesCondensed-Light.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Light.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Bold.eot);
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url(./fonts/TTLakes-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Bold.woff) format('woff'),
+        url(./fonts/TTLakes-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-DemiBold.eot);
+    src: local('TT Lakes DemiBold'), local('TTLakes-DemiBold'),
+        url(./fonts/TTLakes-DemiBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-DemiBold.woff) format('woff'),
+        url(./fonts/TTLakes-DemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Thin.eot);
+    src: local('TT Lakes Compressed Thin'), local('TTLakesCompressed-Thin'),
+        url(./fonts/TTLakesCompressed-Thin.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Thin.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Black.eot);
+    src: local('TT Lakes Black'), local('TTLakes-Black'),
+        url(./fonts/TTLakes-Black.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Black.woff) format('woff'),
+        url(./fonts/TTLakes-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-MediumItalic.eot);
+    src: local('TT Lakes Medium Italic'), local('TTLakes-MediumItalic'),
+        url(./fonts/TTLakes-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-MediumItalic.woff) format('woff'),
+        url(./fonts/TTLakes-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraBold.eot);
+    src: local('TT Lakes Condensed ExtraBold'), local('TTLakesCondensed-ExtraBold'),
+        url(./fonts/TTLakesCondensed-ExtraBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraBold.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraLightItalic.eot);
+    src: local('TT Lakes Condensed ExtraLight Italic'), local('TTLakesCondensed-ExtraLightItalic'),
+        url(./fonts/TTLakesCondensed-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraLightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Medium.eot);
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url(./fonts/TTLakes-Medium.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Medium.woff) format('woff'),
+        url(./fonts/TTLakes-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-DemiBoldItalic.eot);
+    src: local('TT Lakes Condensed DemiBold Italic'), local('TTLakesCondensed-DemiBoldItalic'),
+        url(./fonts/TTLakesCondensed-DemiBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-DemiBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-DemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-BoldItalic.eot);
+    src: local('TT Lakes Compressed Bold Italic'), local('TTLakesCompressed-BoldItalic'),
+        url(./fonts/TTLakesCompressed-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-BoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraLightItalic.eot);
+    src: local('TT Lakes Compressed ExtraLight Italic'), local('TTLakesCompressed-ExtraLightItalic'),
+        url(./fonts/TTLakesCompressed-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraLightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Regular.eot);
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url(./fonts/TTLakes-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Regular.woff) format('woff'),
+        url(./fonts/TTLakes-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-BoldItalic.eot);
+    src: local('TT Lakes Bold Italic'), local('TTLakes-BoldItalic'),
+        url(./fonts/TTLakes-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-BoldItalic.woff) format('woff'),
+        url(./fonts/TTLakes-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-MediumItalic.eot);
+    src: local('TT Lakes Condensed Medium Italic'), local('TTLakesCondensed-MediumItalic'),
+        url(./fonts/TTLakesCondensed-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-MediumItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Italic.eot);
+    src: local('TT Lakes Condensed Italic'), local('TTLakesCondensed-Italic'),
+        url(./fonts/TTLakesCondensed-Italic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Italic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ThinItalic.eot);
+    src: local('TT Lakes Thin Italic'), local('TTLakes-ThinItalic'),
+        url(./fonts/TTLakes-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ThinItalic.woff) format('woff'),
+        url(./fonts/TTLakes-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-DemiBold.eot);
+    src: local('TT Lakes Compressed DemiBold'), local('TTLakesCompressed-DemiBold'),
+        url(./fonts/TTLakesCompressed-DemiBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-DemiBold.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-DemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-BlackItalic.eot);
+    src: local('TT Lakes Black Italic'), local('TTLakes-BlackItalic'),
+        url(./fonts/TTLakes-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-BlackItalic.woff) format('woff'),
+        url(./fonts/TTLakes-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Bold.eot);
+    src: local('TT Lakes Compressed Bold'), local('TTLakesCompressed-Bold'),
+        url(./fonts/TTLakesCompressed-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Bold.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-BlackItalic.eot);
+    src: local('TT Lakes Condensed Black Italic'), local('TTLakesCondensed-BlackItalic'),
+        url(./fonts/TTLakesCondensed-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-BlackItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-MediumItalic.eot);
+    src: local('TT Lakes Compressed Medium Italic'), local('TTLakesCompressed-MediumItalic'),
+        url(./fonts/TTLakesCompressed-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-MediumItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-BoldItalic.eot);
+    src: local('TT Lakes Condensed Bold Italic'), local('TTLakesCondensed-BoldItalic'),
+        url(./fonts/TTLakesCondensed-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-BoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraLight.eot);
+    src: local('TT Lakes Compressed ExtraLight'), local('TTLakesCompressed-ExtraLight'),
+        url(./fonts/TTLakesCompressed-ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraLight.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraBold.eot);
+    src: local('TT Lakes ExtraBold'), local('TTLakes-ExtraBold'),
+        url(./fonts/TTLakes-ExtraBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraBold.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-DemiBoldItalic.eot);
+    src: local('TT Lakes Compressed DemiBold Italic'), local('TTLakesCompressed-DemiBoldItalic'),
+        url(./fonts/TTLakesCompressed-DemiBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-DemiBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-DemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-BlackItalic.eot);
+    src: local('TT Lakes Compressed Black Italic'), local('TTLakesCompressed-BlackItalic'),
+        url(./fonts/TTLakesCompressed-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-BlackItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Light.eot);
+    src: local('TT Lakes Light'), local('TTLakes-Light'),
+        url(./fonts/TTLakes-Light.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Light.woff) format('woff'),
+        url(./fonts/TTLakes-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Black.eot);
+    src: local('TT Lakes Compressed Black'), local('TTLakesCompressed-Black'),
+        url(./fonts/TTLakesCompressed-Black.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Black.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+  html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+  div {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  menu {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: block;
+    text-align-last: auto
+  }
+@charset "UTF-8";
+.wrapper {
+  font-family: 'TT Lakes';
+  color: #1B1C21;
+  font-weight: 500;
+  background-color: #F8F8F8; }
+  @media (min-width: 1440px) {
+    .wrapper {
+      padding-left: 320px;
+      margin: 0 auto;
+      max-width: 1120px; } }
+
+.overlay {
+  display: none;
+  transition: 1s; }
+  .overlay--visibility--on {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: opacity(0.95);
+            filter: opacity(0.95);
+    position: fixed;
+    z-index: 2;
+    background: white;
+    transition: 1s; }
+
+.icon-btn {
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #FF3E79;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .icon-btn:hover {
+    -webkit-filter: opacity(0.6);
+            filter: opacity(0.6); }
+
+.soical-icons {
+  width: 152px;
+  height: 40px;
+  position: relative;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between; }
+  .soical-icons .soical-icons__call {
+    background-image: url(./static/icon-call.svg); }
+  .soical-icons .soical-icons__chat {
+    background-image: url(./static/icon-chat.svg); }
+  .soical-icons .soical-icons__profile {
+    background-image: url(./static/Group-profile.svg); }
+
+.tech-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative; }
+  .tech-icons .tech-icons__repair {
+    background-image: url(./static/Group-repair.svg); }
+  .tech-icons .tech-icons__checkstatus {
+    margin-left: 16px;
+    background-image: url(./static/icon-checkstatus.svg); }
+
+.btn-more {
+  height: 24px;
+  padding: 0;
+  padding-left: 8px;
+  border: none;
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.btn-more:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6); }
+
+.btn-more::before {
+  content: "";
+  background-image: url(./static/arrow.png);
+  width: 8px;
+  height: 11px; }
+
+.btn-more--active::before {
+  transform: rotate(0.5turn); }
+
+.btn-ar {
+  box-sizing: border-box;
+  border: 2px solid #FF3E79;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: inherit;
+  background-image: url(./static/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  .btn-ar .btn-ar:active {
+    height: 41px;
+    width: 41px; }
+  .btn-ar .btn-ar:hover {
+    background-size: 32%;
+    -webkit-filter: opacity(0.6);
+            filter: opacity(0.6); }
+
+.order-btn {
+  box-sizing: border-box;
+  border: 2px solid #FF3E79;
+  height: 32px;
+  width: 119px;
+  border-radius: 16px;
+  background-color: #FF3E79;
+  background-image: url(./static/white-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  cursor: pointer; }
+  .order-btn__text {
+    display: block;
+    width: 67px;
+    position: relative;
+    left: 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600; }
+  .order-btn .order-btn:active {
+    height: 33px;
+    width: 120px; }
+  .order-btn .order-btn:hover {
+    -webkit-filter: opacity(0.6);
+            filter: opacity(0.6); }
+
+.aside-panel {
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  z-index: 3; }
+  .aside-panel--layuot--left {
+    position: fixed;
+    left: 0;
+    transform: translateX(-100%);
+    box-shadow: 0 0 0 transparent;
+    transition: 1s; }
+  .aside-panel--open {
+    transform: translateX(0px);
+    box-shadow: -2px 0 40px rgba(69, 79, 126, 0.4), 16px 0px 52px rgba(14, 24, 80, 0.2); }
+  @media (min-width: 360px) {
+    .aside-panel {
+      max-width: 320px; } }
+  @media (min-width: 1440px) {
+    .aside-panel {
+      transform: translateX(0px); } }
+
+.panel-header {
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 88px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .panel-header .panel-header__close {
+    background-image: url(./static/icon-close.svg);
+    margin-right: 16px; }
+    @media (min-width: 1440px) {
+      .panel-header .panel-header__close {
+        display: none; } }
+  .panel-header .panel-header__logo {
+    margin-right: auto; }
+  .panel-header .panel-header__search {
+    background-image: url(./static/icon-search.svg); }
+
+.panel-menu {
+  padding: 0 24px;
+  flex: 1 1 auto;
+  margin-top: 16px; }
+  .panel-menu .panel-menu__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 24px; }
+  .panel-menu .panel-menu__a {
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    cursor: pointer; }
+    .panel-menu .panel-menu__a:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+    .panel-menu .panel-menu__a:active::before {
+      content: "";
+      display: block;
+      position: absolute;
+      transform: translate(-28px, -5px);
+      height: 32px;
+      border-right: #41F6D7 solid 4px;
+      border-radius: 0 4px 4px 0; }
+
+.panel-contact {
+  margin-top: 16px;
+  padding: 0 24px; }
+  .panel-contact .panel-contact__mail {
+    margin-top: 16px; }
+  .panel-contact .panel-contact__number-phone {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px; }
+
+.lang-select {
+  margin-top: 40px;
+  margin-bottom: 32px; }
+  .lang-select__btn {
+    background: inherit;
+    border: none;
+    padding: 0;
+    margin-right: 5px;
+    font-weight: inherit;
+    font-size: inherit; }
+    .lang-select__btn--active {
+      color: #7E7E82; }
+
+.panel-call {
+  max-width: 440px;
+  height: 100%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  z-index: 3; }
+  .panel-call--layuot--right {
+    position: fixed;
+    right: 0;
+    transition: 1s;
+    box-shadow: -2px 0 40px rgba(69, 79, 126, 0.4), -16px 0px 52px rgba(14, 24, 80, 0.2); }
+  .panel-call--hidden {
+    transform: translateX(150%); }
+  .panel-call__inner {
+    margin-left: 16px; }
+  .panel-call__close {
+    background-image: url(./static/icon-close.svg);
+    margin-top: 25px; }
+    @media (min-width: 1440px) {
+      .panel-call__close {
+        position: fixed;
+        transform: translate(-82px, 10px);
+        overflow: visible;
+        z-index: 5; } }
+  .panel-call__title {
+    margin-top: 40px;
+    margin-bottom: 24px; }
+    .panel-call__title::before {
+      content: "";
+      display: block;
+      position: absolute;
+      transform: translate(-16px, -5px);
+      height: 40px;
+      border-right: #41F6D7 solid 4px;
+      border-radius: 0 4px 4px 0; }
+  .panel-call__phone {
+    height: 48px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    min-width: 288px;
+    height: 48px;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px; }
+  .panel-call__warn {
+    margin-right: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px; }
+  .panel-call__warn-link {
+    text-decoration: none;
+    color: #FF3E79; }
+  .panel-call__btn {
+    float: right;
+    margin-right: 5%; }
+    .panel-call__btn:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+
+.panel-feedback {
+  max-width: 440px;
+  height: 100%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  z-index: 3; }
+  .panel-feedback--layuot--right {
+    position: fixed;
+    right: 0;
+    transition: 1s;
+    box-shadow: -2px 0 40px rgba(69, 79, 126, 0.4), -16px 0px 52px rgba(14, 24, 80, 0.2); }
+  .panel-feedback--hidden {
+    transform: translateX(150%); }
+  .panel-feedback__inner {
+    margin-left: 16px; }
+  .panel-feedback__close {
+    background-image: url(./static/icon-close.svg);
+    margin-top: 25px; }
+    @media (min-width: 1440px) {
+      .panel-feedback__close {
+        position: fixed;
+        transform: translate(-82px, 10px);
+        overflow: visible;
+        z-index: 5; } }
+  .panel-feedback__title {
+    margin-top: 40px;
+    margin-bottom: 24px; }
+    .panel-feedback__title::before {
+      content: "";
+      display: block;
+      position: absolute;
+      transform: translate(-16px, -5px);
+      height: 40px;
+      border-right: #41F6D7 solid 4px;
+      border-radius: 0 4px 4px 0; }
+  .panel-feedback__field {
+    height: 48px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    min-width: 288px;
+    height: 48px;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px; }
+  .panel-feedback__text {
+    height: 118px; }
+  .panel-feedback__warn {
+    margin-right: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px; }
+  .panel-feedback__warn-link {
+    text-decoration: none;
+    color: #FF3E79; }
+  .panel-feedback__btn {
+    float: right;
+    margin-right: 5%; }
+    .panel-feedback__btn:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+
+.header {
+  border-bottom: 1px solid #D9FFF5; }
+  .header .header__inner {
+    min-height: 88px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header .header__burger {
+    margin-right: 16px;
+    background-image: url(./static/icon-burger.svg);
+    position: relative; }
+  .header .header__logo {
+    margin-right: auto; }
+  .header .header__soical-icons {
+    display: none; }
+  .header .tech-icons::before {
+    content: "";
+    position: relative;
+    right: 20px;
+    width: 0px;
+    height: 30px;
+    border: #EAEAEA solid 1px;
+    border-radius: 1px; }
+  @media (min-width: 768px) {
+    .header .header__inner {
+      width: 95%;
+      position: relative; }
+    .header .header__soical-icons {
+      display: flex;
+      margin-right: 40px; }
+    .header .header__burger {
+      margin-right: 40px; }
+    .header .header__inner::before {
+      content: "";
+      position: absolute;
+      left: 60px;
+      width: 0px;
+      height: 30px;
+      border: #EAEAEA solid 1px;
+      border-radius: 1px; } }
+  @media (min-width: 1440px) {
+    .header {
+      display: none; } }
+
+.main {
+  background: #F8F8F8; }
+
+.main-menu {
+  min-height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .main-menu .main-menu__title {
+    margin-left: 12px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px; }
+  .main-menu .main-menu__title::before {
+    content: "";
+    position: relative;
+    right: 13px;
+    width: 0px;
+    height: 40px;
+    border-right: #41F6D7 solid 4px;
+    border-radius: 0 4px 4px 0; }
+  .main-menu .main-menu__tech-icons {
+    display: none; }
+  .main-menu .main-menu__slider {
+    margin-left: 20px;
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
+    vertical-align: center;
+    width: auto;
+    min-height: 40px;
+    padding: 0px;
+    white-space: nowrap;
+    color: #7E7E82; }
+  .main-menu .main-menu__slide-gradient {
+    position: absolute;
+    right: 0; }
+  .main-menu .main-menu__slide-gradient::before {
+    content: "";
+    background: url(./static/fade.png) no-repeat;
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 24px; }
+  .main-menu .main-menu__btn {
+    display: block;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px 15px;
+    padding-bottom: 2;
+    border: none;
+    cursor: pointer; }
+    .main-menu .main-menu__btn:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+  .main-menu .main-menu__btn:active {
+    border: #90f8e7 solid 2px;
+    border-radius: 5px;
+    padding: 8px 13px; }
+  .main-menu .main-menu__btn--hidden {
+    display: none; }
+  @media (min-width: 1440px) {
+    .main-menu {
+      padding-top: 30px;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .main-menu .main-menu__tech-icons {
+        width: 400px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: flex-end;
+        align-self: center;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        letter-spacing: -0.2px; }
+      .main-menu .main-menu__repair {
+        margin-right: 156px;
+        cursor: pointer; }
+      .main-menu .main-menu__repair::before {
+        content: "Оставить  отзыв";
+        display: block;
+        position: relative;
+        right: 150px;
+        height: 24px;
+        width: 140px;
+        padding: 8px; }
+      .main-menu .main-menu__checkstatus {
+        cursor: pointer; }
+      .main-menu .main-menu__checkstatus::before {
+        content: "Статус ремонта";
+        display: block;
+        position: relative;
+        right: 150px;
+        height: 24px;
+        width: 140px;
+        padding: 8px; }
+      .main-menu .main-menu__slider {
+        overflow: visible;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1063px;
+        min-height: 80px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding: 0px;
+        white-space: normal; }
+      .main-menu .main-menu__slide-gradient {
+        display: none; }
+      .main-menu .main-menu__btn {
+        display: block;
+        max-height: 40px;
+        white-space: nowrap; }
+      .main-menu .main-menu__btn:active {
+        border: #90f8e7 solid 2px;
+        border-radius: 5px;
+        padding: 8px 13px;
+        margin-bottom: 0; } }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 24px; }
+  .content .content__description {
+    margin: 0 16px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 16px; }
+  .content .content__text {
+    margin-bottom: 1.3em;
+    transition: 1s; }
+  .content .content__text--hidden {
+    max-height: 90px;
+    overflow: hidden; }
+  .content .content__image {
+    width: 100%; }
+  @media (min-width: 768px) {
+    .content {
+      display: flex;
+      flex-wrap: nowrap;
+      -moz-column-gap: 48px;
+           column-gap: 48px;
+      padding-bottom: 32px; }
+      .content .content__description {
+        margin-left: 24px;
+        margin-bottom: 0;
+        flex-grow: 1; }
+      .content .content__text {
+        width: auto; }
+      .content .content__text--hidden {
+        max-height: 160px;
+        overflow: hidden; }
+      .content .content__image {
+        position: static;
+        padding: 0;
+        flex-grow: 1;
+        flex-shrink: 0;
+        border-radius: 6px;
+        width: 360px;
+        height: 100%;
+        padding-right: 24px; } }
+  @media (min-width: 1440px) {
+    .content {
+      padding-top: 30px;
+      padding-bottom: 51px; }
+      .content .content__description {
+        padding-top: 10px; }
+      .content .content__image {
+        width: 532px; } }
+
+.brands {
+  border-top: 1px solid #D9FFF5; }
+  .brands .brands__inner {
+    box-sizing: border-box;
+    width: 95%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto; }
+  .brands .brands__title {
+    box-sizing: border-box;
+    height: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7E7E82;
+    padding: 16px 0;
+    background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98%); }
+  .brands .brands__btn-more {
+    display: none; }
+  @media (min-width: 768px) {
+    .brands .brands__inner {
+      padding-bottom: 34px; }
+    .brands .brands__btn-more {
+      display: flex; } }
+
+.swiper-brands {
+  min-height: 154px;
+  margin: 0;
+  padding: 16px; }
+  .swiper-brands .swiper-brands__gradient {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: 2; }
+  .swiper-brands .swiper-brands__gradient::before {
+    content: "";
+    background: url(./static/fade-swiper.png) no-repeat;
+    position: relative;
+    right: 0;
+    display: block;
+    height: 72px;
+    width: 24px; }
+  .swiper-brands .swiper-brands__wrapper li.swiper-brands__slide {
+    width: auto; }
+  .swiper-brands .swiper-brands__block {
+    box-sizing: border-box;
+    width: 240px;
+    height: 72px;
+    padding: 0 16px;
+    margin: 16px;
+    margin-left: 0;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; }
+    .swiper-brands .swiper-brands__block:hover {
+      background-size: 32%;
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+  .swiper-brands .swiper-brands__pagination {
+    top: 70%; }
+  .swiper-brands .swiper-brands__pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #B5B6BC; }
+  @media (min-width: 768px) {
+    .swiper-brands {
+      height: auto;
+      padding: 24px 0; }
+      .swiper-brands .swiper-brands__gradient {
+        display: none; }
+      .swiper-brands .swiper-brands__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+        -moz-column-gap: 24px;
+             column-gap: 24px;
+        row-gap: 16px;
+        overflow-y: hidden;
+        height: 160px;
+        padding: 0; }
+      .swiper-brands .swiper-brands__wrapper--open {
+        height: auto; }
+      .swiper-brands .swiper-brands__slide {
+        width: 224px; }
+      .swiper-brands .swiper-brands__block {
+        width: 224px;
+        margin: 0; } }
+  @media (min-width: 1440px) {
+    .swiper-brands .swiper-brands__wrapper {
+      -moz-column-gap: 32px;
+           column-gap: 32px; }
+    .swiper-brands .swiper-brands__block {
+      width: 240px; } }
+
+.tech {
+  border-top: 1px solid #D9FFF5; }
+  .tech .tech__inner {
+    box-sizing: border-box;
+    width: 95%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto; }
+  .tech .tech__title {
+    box-sizing: border-box;
+    height: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7E7E82;
+    padding: 16px 0;
+    background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98%); }
+  .tech .tech__btn-more {
+    display: none; }
+  @media (min-width: 768px) {
+    .tech .tech__inner {
+      padding-bottom: 34px; }
+    .tech .tech__btn-more {
+      display: flex; } }
+
+.swiper-tech {
+  min-height: 154px;
+  margin: 0;
+  padding: 16px; }
+  .swiper-tech__gradient {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: 2; }
+  .swiper-tech__gradient::before {
+    content: "";
+    background: url(./static/fade-tech.png) no-repeat;
+    position: relative;
+    right: 0;
+    display: block;
+    height: 72px;
+    width: 24px; }
+  .swiper-tech__wrapper li.swiper-tech__slide {
+    width: auto;
+    margin-bottom: 36px; }
+  .swiper-tech__block {
+    box-sizing: border-box;
+    width: 240px;
+    height: 160px;
+    padding: 16px;
+    margin: 16px;
+    margin-left: 0;
+    font-weight: 600;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    cursor: pointer; }
+    .swiper-tech__block:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+  .swiper-tech__text {
+    display: block; }
+  .swiper-tech__btn {
+    align-self: flex-end; }
+  .swiper-tech__pagination {
+    top: 85%; }
+  .swiper-tech__pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #B5B6BC; }
+  @media (min-width: 768px) {
+    .swiper-tech {
+      height: auto;
+      padding: 24px 0; }
+      .swiper-tech__gradient {
+        display: none; }
+      .swiper-tech__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+        -moz-column-gap: 24px;
+             column-gap: 24px;
+        row-gap: 16px;
+        overflow-y: hidden;
+        height: 160px;
+        padding: 0; }
+      .swiper-tech__wrapper--open {
+        height: auto; }
+      .swiper-tech__slide {
+        width: 224px; }
+      .swiper-tech__block {
+        width: 224px;
+        margin: 0; } }
+  @media (min-width: 1440px) {
+    .swiper-tech__wrapper {
+      -moz-column-gap: 32px;
+           column-gap: 32px; }
+    .swiper-tech__block {
+      width: 240px; } }
+
+.price {
+  border-top: 1px solid #D9FFF5;
+  padding-bottom: 40px; }
+  .price__inner {
+    box-sizing: border-box;
+    width: 95%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto; }
+  .price__title {
+    box-sizing: border-box;
+    height: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7E7E82;
+    padding: 16px 0;
+    background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98%); }
+  .price__note {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 16px;
+    padding-right: 20px;
+    height: 120px;
+    margin-bottom: 10px; }
+  .price__offer {
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    background-image: url(./static/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: 60% 85%; }
+    .price__offer:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+  @media (min-width: 768px) {
+    .price__inner {
+      padding-bottom: 34px; }
+    .price__note {
+      width: 420px;
+      height: 60px; }
+    .price__offer {
+      width: 320px;
+      height: 24px;
+      background-position: 100% 60%; } }
+
+.swiper-price {
+  min-height: 154px;
+  margin: 0;
+  padding: 16px; }
+  .swiper-price__gradient {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: 2; }
+  .swiper-price__gradient::before {
+    content: "";
+    background: url(./static/fade-price.png) no-repeat;
+    position: relative;
+    right: 0;
+    display: block;
+    height: 200px;
+    width: 24px; }
+  .swiper-price__wrapper li.swiper-price__slide {
+    width: auto;
+    margin-bottom: 30px; }
+  .swiper-price__block {
+    box-sizing: border-box;
+    width: 260px;
+    height: 200px;
+    padding: 16px;
+    margin: 16px;
+    margin-left: 0;
+    position: relative;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 14px; }
+    .swiper-price__block:hover {
+      -webkit-filter: opacity(0.6);
+              filter: opacity(0.6); }
+  .swiper-price__text-repair {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 16px;
+    line-height: 18px; }
+    .swiper-price__text-repair::before {
+      content: 'Ремонтные услуги';
+      display: block;
+      position: absolute;
+      top: 0;
+      color: #7E7E82;
+      line-height: 16px; }
+  .swiper-price__text-price {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 16px;
+    line-height: 18px; }
+    .swiper-price__text-price::before {
+      content: 'Цена';
+      display: block;
+      position: absolute;
+      top: 0;
+      color: #7E7E82;
+      line-height: 16px; }
+  .swiper-price__text-time {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    line-height: 18px; }
+    .swiper-price__text-time::before {
+      content: 'Срок';
+      display: block;
+      position: absolute;
+      top: 0;
+      color: #7E7E82;
+      line-height: 16px; }
+  .swiper-price__btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px; }
+  .swiper-price__pagination {
+    top: 88%; }
+  .swiper-price__pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #B5B6BC; }
+  @media (min-width: 768px) {
+    .swiper-price {
+      display: none; } }
+
+.price-table {
+  display: none;
+  font-size: 14px; }
+  @media (min-width: 768px) {
+    .price-table {
+      display: table;
+      border-collapse: collapse;
+      box-sizing: border-box;
+      width: 98%;
+      margin-bottom: 24px; }
+      .price-table__header {
+        background-color: #F8F8F8;
+        height: 48px; }
+      .price-table__cell-heder {
+        line-height: 16px;
+        padding: 0 16px;
+        text-align: start;
+        color: #7E7E82;
+        font-weight: 400; }
+      .price-table__row {
+        height: 64px;
+        background-color: #FFFFFF; }
+        .price-table__row--border:after {
+          content: "";
+          background-color: #EAEAEA;
+          height: 1px;
+          left: 0;
+          width: 85%;
+          position: absolute;
+          margin-left: 8%; }
+      .price-table__cell {
+        line-height: 18px;
+        padding: 0 16px; }
+        .price-table__cell:last-of-type {
+          text-align: end; }
+      .price-table__btn:hover {
+        -webkit-filter: opacity(0.6);
+                filter: opacity(0.6); } }
+  @media (min-width: 1440px) {
+    .price-table__row {
+      height: 64px;
+      background-color: #FFFFFF; }
+      .price-table__row:not(:first-of-type):after {
+        width: 65%;
+        position: absolute;
+        margin-left: 29%; } }
+
+.footer {
+  border-top: 1px solid #D9FFF5;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F8F8F8;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #7E7E82; }
+  .footer__info-design {
+    margin-bottom: 16px;
+    text-decoration: inherit;
+    color: inherit; }
+  .footer__confidencial {
+    margin-bottom: 16px;
+    text-decoration: inherit;
+    color: inherit; }
+  .footer__info-publish {
+    text-decoration: inherit;
+    color: inherit; }
+  @media (min-width: 768px) {
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 24px;
+      padding-top: 32px; }
+      .footer__info-design {
+        margin-bottom: auto;
+        text-align: start; }
+      .footer__confidencial {
+        margin-bottom: auto; }
+      .footer__info-publish {
+        text-align: end; } }
+
+
+/*# sourceMappingURL=style.css.map*/

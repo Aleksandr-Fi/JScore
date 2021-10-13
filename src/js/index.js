@@ -16,13 +16,12 @@ dest();
 
 function dest() {
     if (winWidth.matches) {
-        // swiper.destroy();
-        // document.querySelector('.swiper').classList.remove('swiper');
-        // document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');
+        // чет destroy() не работает как надо
+        // swiper.destroy(); 
 
         let swipers = document.querySelectorAll('.swiper');
         for (let i = 0; i < swipers.length; i++) {
-            
+
             swipers[i].classList.remove('swiper')
         };
         let wrappers = document.querySelectorAll('.swiper-wrapper');

@@ -47,6 +47,13 @@
                 text-align: end;
             }
         }
+
+        &__btn {
+            
+            &:hover {
+                filter: opacity(0.6);
+            }
+        }
     }
 
     @media (min-width: 1440px) {

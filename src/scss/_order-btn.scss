@@ -8,6 +8,7 @@
     background-image: url(../img/icons/white-arrow.svg);
     background-repeat: no-repeat;
     background-position: 90% 50%;
+    cursor: pointer;
 
     &__text {
         display: block;
@@ -26,6 +27,6 @@
     }
 
     .order-btn:hover {
-        background-size: 32%;
+        filter: opacity(0.6);
     }
 }

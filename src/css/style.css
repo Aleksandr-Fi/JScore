@@ -41,9 +41,9 @@
   cursor: pointer;
 }
 
-.icon-btn .icon-btn:hover {
-  -webkit-filter: opacity(0.8);
-          filter: opacity(0.8);
+.icon-btn:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .soical-icons {
@@ -151,6 +151,8 @@
 
 .btn-ar .btn-ar:hover {
   background-size: 32%;
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .order-btn {
@@ -164,6 +166,7 @@
   background-image: url(../img/icons/white-arrow.svg);
   background-repeat: no-repeat;
   background-position: 90% 50%;
+  cursor: pointer;
 }
 
 .order-btn__text {
@@ -183,7 +186,8 @@
 }
 
 .order-btn .order-btn:hover {
-  background-size: 32%;
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .aside-panel {
@@ -302,13 +306,15 @@
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #1B1C21;
+  cursor: pointer;
 }
 
-.panel-menu .panel-menu__a--selected {
-  color: #7E7E82;
+.panel-menu .panel-menu__a:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
-.panel-menu .panel-menu__a--selected::before {
+.panel-menu .panel-menu__a:active::before {
   content: "";
   display: block;
   position: absolute;
@@ -449,6 +455,11 @@
   margin-right: 5%;
 }
 
+.panel-call__btn:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
+}
+
 .panel-feedback {
   max-width: 440px;
   height: 100%;
@@ -547,6 +558,11 @@
 .panel-feedback__btn {
   float: right;
   margin-right: 5%;
+}
+
+.panel-feedback__btn:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .header {
@@ -699,6 +715,12 @@
   padding: 10px 15px;
   padding-bottom: 2;
   border: none;
+  cursor: pointer;
+}
+
+.main-menu .main-menu__btn:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .main-menu .main-menu__btn:active {
@@ -969,6 +991,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+}
+
+.swiper-brands .swiper-brands__block:hover {
+  background-size: 32%;
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .swiper-brands .swiper-brands__pagination {
@@ -1113,6 +1142,12 @@
           justify-content: space-between;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.swiper-tech__block:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .swiper-tech__text {
@@ -1228,6 +1263,11 @@
   background-position: 60% 85%;
 }
 
+.price__offer:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
+}
+
 @media (min-width: 768px) {
   .price__inner {
     padding-bottom: 34px;
@@ -1293,6 +1333,11 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   font-size: 14px;
+}
+
+.swiper-price__block:hover {
+  -webkit-filter: opacity(0.6);
+          filter: opacity(0.6);
 }
 
 .swiper-price__text-repair {
@@ -1412,6 +1457,10 @@
   .price-table__cell:last-of-type {
     text-align: end;
   }
+  .price-table__btn:hover {
+    -webkit-filter: opacity(0.6);
+            filter: opacity(0.6);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1423,5 +1472,64 @@
     width: 65%;
     position: absolute;
     margin-left: 29%;
+  }
+}
+
+.footer {
+  border-top: 1px solid #D9FFF5;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F8F8F8;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #7E7E82;
+}
+
+.footer__info-design {
+  margin-bottom: 16px;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.footer__confidencial {
+  margin-bottom: 16px;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.footer__info-publish {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    padding: 24px;
+    padding-top: 32px;
+  }
+  .footer__info-design {
+    margin-bottom: auto;
+    text-align: start;
+  }
+  .footer__confidencial {
+    margin-bottom: auto;
+  }
+  .footer__info-publish {
+    text-align: end;
   }
 }

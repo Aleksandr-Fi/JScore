@@ -46,6 +46,10 @@
         background-image: url(../img/icons/arrow-right.svg);
         background-repeat: no-repeat;
         background-position: 60% 85%;
+
+        &:hover {
+            filter: opacity(0.6);
+        }
     }
 
     @media (min-width: 768px) {

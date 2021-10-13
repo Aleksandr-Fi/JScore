@@ -59,6 +59,11 @@
         padding: 10px 15px;
         padding-bottom: 2;
         border: none;
+        cursor: pointer;
+
+        &:hover {
+            filter: opacity(0.6);
+        }
     }
     
     .main-menu__btn:active {

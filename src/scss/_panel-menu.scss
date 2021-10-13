@@ -24,12 +24,13 @@
         line-height: 24px;
         letter-spacing: -0.2px;
         color: $text-color;
+        cursor: pointer;
 
-        &--selected {
-            color: $text-selected;
+        &:hover {
+            filter: opacity(0.6);
         }
 
-        &--selected::before {
+        &:active::before {
             content: "";
             display: block;
             position: absolute;

@@ -39,6 +39,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        cursor: pointer;
+
+        &:hover {
+            background-size: 32%;
+            filter: opacity(0.6);
+        }
     }    
 
     .swiper-brands__pagination {

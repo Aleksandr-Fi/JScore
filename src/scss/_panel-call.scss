@@ -79,5 +79,9 @@
     &__btn {
         float: right;
         margin-right: 5%;
+
+        &:hover {
+            filter: opacity(0.6);
+        }
     }
 }

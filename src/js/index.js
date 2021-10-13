@@ -16,15 +16,15 @@ dest();
 
 function dest() {
     if (winWidth.matches) {
-        swiper.destroy();
-        document.querySelector('.swiper').classList.remove('swiper');
+        // swiper.destroy();
+        // document.querySelector('.swiper').classList.remove('swiper');
         // document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');
 
-        // let swipers = document.querySelectorAll('.swiper');
-        // console.log('swipers');
-        // for (let i = 0; i < swipers.length; i++) {
-        //     swipers[i].classList.remove('swiper-wrapper')
-        // };
+        let swipers = document.querySelectorAll('.swiper');
+        for (let i = 0; i < swipers.length; i++) {
+            
+            swipers[i].classList.remove('swiper')
+        };
         let wrappers = document.querySelectorAll('.swiper-wrapper');
         for (let i = 0; i < wrappers.length; i++) {
             wrappers[i].classList.remove('swiper-wrapper')

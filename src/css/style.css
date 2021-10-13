@@ -38,6 +38,7 @@
   background-color: #FF3E79;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .icon-btn .icon-btn:hover {

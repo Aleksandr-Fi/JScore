@@ -88,6 +88,6 @@ let panelCall = document.querySelector('.panel-call')
 
 btnCall.addEventListener('click', function() {
     console.log('click')
-    panelCall.classList.toggle('panel-call--open')
+    panelCall.classList.toggle('panel-call--hidden')
     overlay.classList.toggle('overlay--visibility--on')
 });

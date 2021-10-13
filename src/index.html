@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="stylesheet" href="./src/css/normalize.css"> -->
-    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="../dist/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <title>CSP design for practice</title>
 </head>
+
 <body class="wrapper">
     <!-- block_1.4 -->
     <div class="overlay"></div>
-    
+
     <section class="aside-panel aside-panel--layuot--left">
         <!-- <div class="panel-container"> -->
-            <div class="panel-header">
-                <button class="panel-header__close icon-btn"></button>
-                <img class="panel-header__logo" src="src/img/icons/logo.svg">
-                <button class="panel-header__search icon-btn"></button>
+        <div class="panel-header">
+            <button class="panel-header__close icon-btn"></button>
+            <img class="panel-header__logo" src="src/img/icons/logo.svg">
+            <button class="panel-header__search icon-btn"></button>
+        </div>
+        <div class="panel-menu">
+            <ul class="panel-menu__list">
+                <li class="panel-menu__btn"><a class="panel-menu__a panel-menu__a--selected" href="">Ремонт техники</a>
+                </li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Услуги и сервисы</a></li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Корпоративным клиентам</a></li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Продавцам техники</a></li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Партнерам</a></li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Производителям</a></li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Наши сервисные центры</a></li>
+                <li class="panel-menu__btn"><a class="panel-menu__a" href="">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="panel-contact">
+            <div class="soical-icons">
+                <button class="icon-btn soical-icons__call call"></button>
+                <button class="icon-btn soical-icons__chat chat"></button>
+                <button class="icon-btn soical-icons__profile"></button>
             </div>
-            <div class="panel-menu">
-                <ul class="panel-menu__list">
-                    <li class="panel-menu__btn"><a class="panel-menu__a panel-menu__a--selected" href="">Ремонт техники</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Услуги и сервисы</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Корпоративным клиентам</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Продавцам техники</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Партнерам</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Производителям</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Наши сервисные центры</a></li>
-                    <li class="panel-menu__btn"><a class="panel-menu__a" href="">Контакты</a></li>
-                </ul>
+            <p class="panel-contact__mail">mail@cps.com</p>
+            <p class="panel-contact__number-phone">8 800 890 8900</p>
+            <div class="lang-select">
+                <button class="lang-select__btn lang-ru lang-select__btn--active">RU</button>
+                <button class="lang-select__btn lang-en">EN</button>
+                <button class="lang-select__btn lang-ch">CH</button>
             </div>
-            <div class="panel-contact">
-                <div class="soical-icons">
-                    <button class="icon-btn soical-icons__call call"></button>
-                    <button class="icon-btn soical-icons__chat chat"></button>
-                    <button class="icon-btn soical-icons__profile"></button>
-                </div>
-                <p class="panel-contact__mail">mail@cps.com</p>
-                <p class="panel-contact__number-phone">8 800 890 8900</p>
-                <div class="lang-select">
-                    <button class="lang-select__btn lang-ru lang-select__btn--active">RU</button>
-                    <button class="lang-select__btn lang-en">EN</button>
-                    <button class="lang-select__btn lang-ch">CH</button>
-                </div>
-            </div>
+        </div>
         <!-- </div> -->
     </section>
 
@@ -56,20 +59,23 @@
             <h1 class="panel-feedback__title">Заказать звонок</h1>
             <form action="#" class="panel-feedback__form">
 
-                <input type="text" class="panel-feedback__field panel-feedback__name" name="name" id="name" placeholder="Имя">
+                <input type="text" class="panel-feedback__field panel-feedback__name" name="name" id="name"
+                    placeholder="Имя">
 
-                <input type="tel" class="panel-feedback__field panel-feedback__phone" id="phone" name="phone" placeholder="Телефон" 
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="tel" class="panel-feedback__field panel-feedback__phone" id="phone" name="phone"
+                    placeholder="Телефон" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
-                <input type="email" class="panel-feedback__field panel-feedback__email" name="email" id="" placeholder="Электронная почта">
+                <input type="email" class="panel-feedback__field panel-feedback__email" name="email" id=""
+                    placeholder="Электронная почта">
 
-                <input type="text" class="panel-feedback__field panel-feedback__text" name="text" id="" placeholder="Сообщение">
+                <input type="text" class="panel-feedback__field panel-feedback__text" name="text" id=""
+                    placeholder="Сообщение">
 
                 <p class="panel-feedback__warn">
-                    Нажимая “отправить”, вы даете согласие на 
-                    <a href="" class="panel-feedback__warn-link">обработку персональных данных</a> 
-                    и соглашаетесь с нашей <a href="" class="panel-feedback__warn-link">политикой 
-                    конфиденциальности</a>
+                    Нажимая “отправить”, вы даете согласие на
+                    <a href="" class="panel-feedback__warn-link">обработку персональных данных</a>
+                    и соглашаетесь с нашей <a href="" class="panel-feedback__warn-link">политикой
+                        конфиденциальности</a>
                 </p>
                 <button class="panel-feedback__btn order-btn" type="submit">
                     <p class="order-btn__text">ОТПРАВИТЬ</p>
@@ -84,14 +90,14 @@
             <h1 class="panel-call__title">Заказать звонок</h1>
             <form action="#" class="panel-call__form">
 
-                <input type="tel" class="panel-call__phone" id="phone" name="phone" placeholder="Телефон" 
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="tel" class="panel-call__phone" id="phone" name="phone" placeholder="Телефон"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
                 <p class="panel-call__warn">
-                    Нажимая “отправить”, вы даете согласие на 
-                    <a href="" class="panel-call__warn-link">обработку персональных данных</a> 
-                    и соглашаетесь с нашей <a href="" class="panel-call__warn-link">политикой 
-                    конфиденциальности</a>
+                    Нажимая “отправить”, вы даете согласие на
+                    <a href="" class="panel-call__warn-link">обработку персональных данных</a>
+                    и соглашаетесь с нашей <a href="" class="panel-call__warn-link">политикой
+                        конфиденциальности</a>
                 </p>
                 <button class="panel-call__btn order-btn" type="submit">
                     <p class="order-btn__text">ОТПРАВИТЬ</p>
@@ -102,18 +108,18 @@
 
     <header class="header">
         <div class="header__inner">
-        <button class="icon-btn header__burger"></button>
-        <img class="header__logo" src="src/img/icons/logo.svg">
-        <div class="soical-icons header__soical-icons">
-            <button class="icon-btn soical-icons__call header-call"></button>
-            <button class="icon-btn soical-icons__chat header-chat"></button>
-            <button class="icon-btn soical-icons__profile"></button>
+            <button class="icon-btn header__burger"></button>
+            <img class="header__logo" src="src/img/icons/logo.svg">
+            <div class="soical-icons header__soical-icons">
+                <button class="icon-btn soical-icons__call header-call"></button>
+                <button class="icon-btn soical-icons__chat header-chat"></button>
+                <button class="icon-btn soical-icons__profile"></button>
+            </div>
+            <div class="tech-icons">
+                <button class="icon-btn tech-icons__repair"></button>
+                <button class="icon-btn tech-icons__checkstatus"></button>
+            </div>
         </div>
-        <div class="tech-icons">
-            <button class="icon-btn tech-icons__repair"></button>
-            <button class="icon-btn tech-icons__checkstatus"></button>
-        </div>
-    </div>
     </header>
 
     <main class="main">
@@ -163,7 +169,7 @@
                 <button class="btn-more content__btn-more">Читать далее</button>
             </div>
             <!-- <div> -->
-                <img src="src/img/images/Photo.jpg" class="content__image">
+            <img src="src/img/images/Photo.jpg" class="content__image">
             <!-- </div> -->
         </section>
 
@@ -281,7 +287,7 @@
                         </li>
                         <li class="swiper-slide swiper-tech__slide">
                             <button class="swiper-tech__block">
-                                <p class="swiper-tech__text">Ремонт  мониторов</p>
+                                <p class="swiper-tech__text">Ремонт мониторов</p>
                                 <a class="swiper-tech__btn btn-ar"></a>
                             </button>
                         </li>
@@ -305,7 +311,7 @@
                         </li>
                         <li class="swiper-slide swiper-tech__slide">
                             <button class="swiper-tech__block">
-                                <p class="swiper-tech__text">Ремонт  мониторов</p>
+                                <p class="swiper-tech__text">Ремонт мониторов</p>
                                 <a class="swiper-tech__btn btn-ar"></a>
                             </button>
                         </li>
@@ -465,7 +471,7 @@
             Разработано командой Apesong </a>
         <a href="" class="footer__confidencial">Политика конфиденциальности</a>
         <a href="" class="footer__info-publish">
-            Информация, размещенная на данной странице, 
+            Информация, размещенная на данной странице,
             не является публичной офертой
         </a>
     </footer>
@@ -474,4 +480,5 @@
     <script src="./src/js/index.js"></script>
 
 </body>
+
 </html>

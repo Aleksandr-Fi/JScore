@@ -21,7 +21,7 @@ function dest() {
         // document.querySelector('.swiper-wrapper').classList.remove('swiper-wrapper');
 
         // let swipers = document.querySelectorAll('.swiper');
-        // console.log(swipers);
+        // console.log('swipers');
         // for (let i = 0; i < swipers.length; i++) {
         //     swipers[i].classList.remove('swiper-wrapper')
         // };
@@ -66,43 +66,74 @@ btnMoreTech.addEventListener('click', function() {
     techWrapper.classList.toggle('swiper-tech__wrapper--open');
 });
 
+// открытие/закрытие aside-panel
 let btnBurger = document.querySelector('.header__burger');
 let btnAsideClose = document.querySelector('.panel-header__close');
 let asidePanel = document.querySelector('.aside-panel');
-// overlay--visibility--on
 let overlay = document.querySelector('.overlay');
-;
+
 btnBurger.addEventListener('click', function() {
-    asidePanel.classList.toggle('aside-panel--open')
-    overlay.classList.toggle('overlay--visibility--on')
+    asidePanel.classList.toggle('aside-panel--open', true)
+    overlay.classList.toggle('overlay--visibility--on', true)
 });
 
 btnAsideClose.addEventListener('click', function() {
-    asidePanel.classList.toggle('aside-panel--open')
-    overlay.classList.toggle('overlay--visibility--on')
+    asidePanel.classList.toggle('aside-panel--open', false)
+    overlay.classList.toggle('overlay--visibility--on', false)
 });
 
+// открытие/закрытие right-panels
 let btnCall = document.querySelector('.call');
 let hederCall = document.querySelector('.header-call');
 let panelCall = document.querySelector('.panel-call')
-
-btnCall.addEventListener('click', function() {
-    panelCall.classList.toggle('panel-call--hidden')
-    overlay.classList.toggle('overlay--visibility--on')
-});
 
 let btnChat = document.querySelector('.chat');
 let hederChat = document.querySelector('.header-chat');
 let panelChat = document.querySelector('.panel-feedback')
 
+btnCall.addEventListener('click', function() {
+    panelCall.classList.toggle('panel-call--hidden')
+    panelChat.classList.toggle('panel-feedback--hidden', true)
+    overlay.classList.toggle('overlay--visibility--on', true)
+});
+
+hederCall.addEventListener('click', function() {
+    panelCall.classList.toggle('panel-call--hidden')
+    panelChat.classList.toggle('panel-feedback--hidden', true)
+
+    overlay.classList.toggle('overlay--visibility--on', true)
+});
+
 btnChat.addEventListener('click', function() {
     panelChat.classList.toggle('panel-feedback--hidden')
-    overlay.classList.toggle('overlay--visibility--on')
+    panelCall.classList.toggle('panel-call--hidden', true)
+    overlay.classList.toggle('overlay--visibility--on', true)
+});
+
+hederChat.addEventListener('click', function() {
+    panelChat.classList.toggle('panel-feedback--hidden')
+    panelCall.classList.toggle('panel-call--hidden', true)
+    overlay.classList.toggle('overlay--visibility--on', true)
+});
+
+// закрытие right-panels 
+let closeCall = document.querySelector('.close-call');
+let closeFeedback = document.querySelector('.close-feedback');
+
+closeCall.addEventListener('click', function() {
+    panelCall.classList.toggle('panel-call--hidden', true)
+    overlay.classList.toggle('overlay--visibility--on', false)
+});
+
+closeFeedback.addEventListener('click', function() {
+    panelChat.classList.toggle('panel-feedback--hidden', true)
+    overlay.classList.toggle('overlay--visibility--on', false)
 });
 
 // off panel effects
-// overlay.addEventListener('click', function() {
-//     panelCall.classList.toggle('panel-call--hidden')
-//     panelChat.classList.toggle('panel-feedback--hidden')
-//     overlay.classList.remove('overlay--visibility--on')
-// });
+overlay.addEventListener('click', function() {
+    asidePanel.classList.toggle('aside-panel--open', false)
+    panelCall.classList.toggle('panel-call--hidden', true)
+    panelChat.classList.toggle('panel-feedback--hidden', true)
+    overlay.classList.toggle('overlay--visibility--on', false)
+});

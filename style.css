@@ -1331,7 +1331,8 @@
     color: #FF3E79; }
   .panel-feedback__btn {
     float: right;
-    margin-right: 5%; }
+    margin-right: 5%;
+    margin-bottom: 20px; }
     .panel-feedback__btn:hover {
       -webkit-filter: opacity(0.6);
               filter: opacity(0.6); }

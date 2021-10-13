@@ -87,7 +87,22 @@ let hederCall = document.querySelector('.header-call');
 let panelCall = document.querySelector('.panel-call')
 
 btnCall.addEventListener('click', function() {
-    console.log('click')
     panelCall.classList.toggle('panel-call--hidden')
     overlay.classList.toggle('overlay--visibility--on')
 });
+
+let btnChat = document.querySelector('.chat');
+let hederChat = document.querySelector('.header-chat');
+let panelChat = document.querySelector('.panel-feedback')
+
+btnChat.addEventListener('click', function() {
+    panelChat.classList.toggle('panel-feedback--hidden')
+    overlay.classList.toggle('overlay--visibility--on')
+});
+
+// off panel effects
+// overlay.addEventListener('click', function() {
+//     panelCall.classList.toggle('panel-call--hidden')
+//     panelChat.classList.toggle('panel-feedback--hidden')
+//     overlay.classList.remove('overlay--visibility--on')
+// });

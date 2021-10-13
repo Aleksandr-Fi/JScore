@@ -6,20 +6,18 @@
     flex-direction: column;
     overflow-y: scroll;
     z-index: 3;
-
     
     &--layuot--right {
         position: fixed;
         right: 0;
-        transform: translateX(100%);
         box-shadow: 0 0 0 transparent;
         transition: 1s;
-    }
-
-    &--open {
-        transform: translateX(0px);
         box-shadow: -2px 0 40px rgba(69, 79, 126, .4),
         -16px 0px 52px rgba(14, 24, 80, .2);
+    }
+
+    &--hidden {
+        transform: translateX(150%);
     }
 
     &__inner {
@@ -28,12 +26,13 @@
 
     &__close {
         background-image: url(../img/icons/icon-close.svg);
-        margin-top: 24px;
+        margin-top: 25px;
 
         @media (min-width: 1440px) {
-            margin-top: 25px;
             position: fixed;
             transform: translate(-82px, 10px);
+            overflow: visible;
+            z-index: 5;
         }
     }
 

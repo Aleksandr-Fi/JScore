@@ -9,10 +9,14 @@
 
     .panel-header__close {
         background-image: url('../img/icons/icon-close.svg');
+        margin-right: 16px;
+
+        @media (min-width: 1440px) {
+            display: none;
+        }
     }
 
     .panel-header__logo {
-        margin-left: 16px;
         margin-right: auto;
     }
 

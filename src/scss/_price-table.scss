@@ -27,7 +27,7 @@
             height: 64px;
             background-color: $light-backgound-color;
 
-            &:not(:first-of-type):after {
+                &--border:after {
                 content: "";
                 background-color: #EAEAEA;
                 height: 1px;

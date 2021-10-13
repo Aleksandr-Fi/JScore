@@ -251,10 +251,16 @@
 
 .panel-header .panel-header__close {
   background-image: url("../img/icons/icon-close.svg");
+  margin-right: 16px;
+}
+
+@media (min-width: 1440px) {
+  .panel-header .panel-header__close {
+    display: none;
+  }
 }
 
 .panel-header .panel-header__logo {
-  margin-left: 16px;
   margin-right: auto;
 }
 
@@ -364,8 +370,6 @@
 .panel-call--layuot--right {
   position: fixed;
   right: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
   -webkit-box-shadow: 0 0 0 transparent;
           box-shadow: 0 0 0 transparent;
   -webkit-transition: 1s;
@@ -1396,7 +1400,7 @@
     height: 64px;
     background-color: #FFFFFF;
   }
-  .price-table__row:not(:first-of-type):after {
+  .price-table__row--border:after {
     content: "";
     background-color: #EAEAEA;
     height: 1px;

@@ -83,6 +83,10 @@
             height: 160px;
             padding: 0;
         }
+
+        &__wrapper li.swiper-tech__slide {
+            margin-bottom: 0;
+        }
     
         &__wrapper--open {
             height: auto;

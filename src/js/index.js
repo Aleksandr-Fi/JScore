@@ -1,4 +1,4 @@
-import '../scss/style.scss';
+// import '../scss/style.scss';
 
 document.addEventListener("DOMContentLoaded", new Swiper);
 

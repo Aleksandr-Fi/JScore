@@ -1,11 +1,12 @@
 @charset "UTF-8";
 @import url(../fonts/TTLakes/stylesheet.css);
-@import url(g:\Table G\документы\ProgWork\Фронтэнд. Учебные материалы\Сайты. Верстка для ревью\block_1.3\src\css\normalize.css);
+@import url(g:\Table G\документы\ProgWork\Фронтэнд. Учебные материалы\Сайты. Верстка для ревью\block_1.3\css\normalize.css);
 .wrapper {
   font-family: 'TT Lakes';
   color: #1B1C21;
   font-weight: 500;
   background-color: #F8F8F8;
+  margin: 0;
 }
 
 @media (min-width: 1440px) {

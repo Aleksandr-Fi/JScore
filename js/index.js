@@ -39,8 +39,8 @@ function dest() {
     };
 };
 
-let btnMoreContent = document.querySelector('.content__btn-more');
-let contentText = document.querySelector(".content__text");
+const btnMoreContent = document.querySelector('.content__btn-more');
+const contentText = document.querySelector(".content__text");
 btnMoreContent.addEventListener('click', function() {
     btnMoreContent.classList.toggle('btn-more--active');
     btnMoreContent.innerHTML = (btnMoreContent.innerHTML === 'Скрыть') ? btnMoreContent.innerHTML = 'Читать далее' : btnMoreContent.innerHTML = 'Скрыть';
@@ -48,8 +48,8 @@ btnMoreContent.addEventListener('click', function() {
 });
 
 // открытие брендов
-let btnMoreBrands = document.querySelector('.brands__btn-more');
-let bandsWrapper = document.querySelector(".swiper-brands__wrapper");
+const btnMoreBrands = document.querySelector('.brands__btn-more');
+const bandsWrapper = document.querySelector(".swiper-brands__wrapper");
 
 btnMoreBrands.addEventListener('click', function() {
     btnMoreBrands.classList.toggle('btn-more--active');
@@ -58,8 +58,8 @@ btnMoreBrands.addEventListener('click', function() {
 });
 
 // открытие видов техники
-let btnMoreTech = document.querySelector('.tech__btn-more');
-let techWrapper = document.querySelector(".swiper-tech__wrapper");
+const btnMoreTech = document.querySelector('.tech__btn-more');
+const techWrapper = document.querySelector(".swiper-tech__wrapper");
 
 btnMoreTech.addEventListener('click', function() {
     btnMoreTech.classList.toggle('btn-more--active');
@@ -68,10 +68,10 @@ btnMoreTech.addEventListener('click', function() {
 });
 
 // открытие/закрытие aside-panel
-let btnBurger = document.querySelector('.header__burger');
-let btnAsideClose = document.querySelector('.panel-header__close');
-let asidePanel = document.querySelector('.aside-panel');
-let overlay = document.querySelector('.overlay');
+const btnBurger = document.querySelector('.header__burger');
+const btnAsideClose = document.querySelector('.panel-header__close');
+const asidePanel = document.querySelector('.aside-panel');
+const overlay = document.querySelector('.overlay');
 let asidePanelOpen = false;
 
 btnBurger.addEventListener('click', function() {
@@ -89,13 +89,13 @@ btnAsideClose.addEventListener('click', function() {
 });
 
 // открытие/закрытие right-panels
-let btnCall = document.querySelector('.call');
-let hederCall = document.querySelector('.header-call');
-let panelCall = document.querySelector('.panel-call')
+const btnCall = document.querySelector('.call');
+const hederCall = document.querySelector('.header-call');
+const panelCall = document.querySelector('.panel-call')
 
-let btnChat = document.querySelector('.chat');
-let hederChat = document.querySelector('.header-chat');
-let panelChat = document.querySelector('.panel-feedback')
+const btnChat = document.querySelector('.chat');
+const hederChat = document.querySelector('.header-chat');
+const panelChat = document.querySelector('.panel-feedback')
 
 btnCall.addEventListener('click', function() {
     panelCall.classList.toggle('panel-call--hidden')
@@ -130,8 +130,8 @@ hederChat.addEventListener('click', function() {
 });
 
 // закрытие right-panels 
-let closeCall = document.querySelector('.close-call');
-let closeFeedback = document.querySelector('.close-feedback');
+const closeCall = document.querySelector('.close-call');
+const closeFeedback = document.querySelector('.close-feedback');
 
 closeCall.addEventListener('click', function() {
     panelCall.classList.toggle('panel-call--hidden', true)

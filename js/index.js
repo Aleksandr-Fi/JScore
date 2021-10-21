@@ -39,6 +39,7 @@ function dest() {
     };
 };
 
+// открытие текста
 const btnMoreContent = document.querySelector('.content__btn-more');
 const contentText = document.querySelector(".content__text");
 btnMoreContent.addEventListener('click', function() {
@@ -77,14 +78,12 @@ let asidePanelOpen = false;
 btnBurger.addEventListener('click', function() {
     asidePanel.classList.toggle('aside-panel--open', true)
     asidePanelOpen = true;
-    console.log(asidePanelOpen);
     overlay.classList.toggle('overlay--visibility--on', true)
 });
 
 btnAsideClose.addEventListener('click', function() {
     asidePanel.classList.toggle('aside-panel--open', false)
     asidePanelOpen = false;
-    console.log(asidePanelOpen);
     overlay.classList.toggle('overlay--visibility--on', false)
 });
 
@@ -155,7 +154,6 @@ closeFeedback.addEventListener('click', function() {
 overlay.addEventListener('click', function() {
     asidePanel.classList.toggle('aside-panel--open', false)
     asidePanelOpen = false;
-    // console.log(asidePanelOpen);
     panelCall.classList.toggle('panel-call--hidden', true)
     panelChat.classList.toggle('panel-feedback--hidden', true)
     overlay.classList.toggle('overlay--visibility--on', false)

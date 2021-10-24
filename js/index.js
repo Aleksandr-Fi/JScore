@@ -22,18 +22,13 @@ function dest() {
         // swiper.destroy(); 
 
         let swipers = document.querySelectorAll('.swiper');
-        for (let i = 0; i < swipers.length; i++) {
-
-            swipers[i].classList.remove('swiper')
-        };
+        swipers.forEach(element => element.classList.remove('swiper'));
+        
         let wrappers = document.querySelectorAll('.swiper-wrapper');
-        for (let i = 0; i < wrappers.length; i++) {
-            wrappers[i].classList.remove('swiper-wrapper')
-        };
+        wrappers.forEach(element => element.classList.remove('swiper-wrapper'));
+
         let slides = document.querySelectorAll('.swiper-slide');
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].classList.remove('swiper-slide')
-        };
+        slides.forEach(element => element.classList.remove('swiper-slide'));
 
         document.querySelector('.swiper-pagination').remove('div');
     };

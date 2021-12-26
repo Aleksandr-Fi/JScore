@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    width: 700px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/src/pngwing.com.png') 20px;
+}
+
+.body__title {
+    margin-bottom: 0;
+}
+
+.body__search {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 500px;
+    height: 25px;
+}
+
+.body__list-title {
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.search__list {
+    padding: 0;
+}
+
+.body__git-list {
+    margin: 0 auto;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 2px solid black;
+    width: 600px;
+    margin-top: 5px;
+}
+
+.search-list__item {
+    border: 1px solid black;
+    background: #E3E3E3;
+    ;
+    height: 30px;
+    width: 500px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.search-list__item:hover {
+    background: aqua;
+}
+
+.list__info {
+    white-space: pre-wrap;
+    background: white;
+    width: 500px;
+    padding-left: 30px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.close-btn {
+    background: url(./src/pngwing.com.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-size: 37px;
+}

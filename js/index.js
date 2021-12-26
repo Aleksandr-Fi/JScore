@@ -1,1 +1,0 @@
-const fragment = document.createDocumentFragment()

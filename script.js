@@ -17,7 +17,7 @@ const removeSearchList = () => {
     document.querySelectorAll('.search-list__item').forEach(a => a.remove());
     arrResSer = [];
 }
-
+ 
 const cons = function () {
     if (!searchForm.value) {
         removeSearchList();
